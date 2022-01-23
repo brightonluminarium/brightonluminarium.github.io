@@ -5,6 +5,28 @@ html, body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.title {
+  font-family: 'Quicksand', sans-serif;
+  color:#FFF;
+}
+
+.subtitle {
+  font-family: 'Quicksand', sans-serif;
+  color:#222222;
+}
+
+.people {
+  font-family: 'Quicksand', sans-serif;
+  color:#222222;
+}
+
+h1 {
+  /* font-family: 'Quicksand', sans-serif; */
+}
+
+h2 {
+  /* font-family: 'Quicksand', sans-serif; */
+}
 
 .sidenav {
   position: sticky;
