@@ -42,25 +42,6 @@ html, body {
   position:absolute;
 }
 
-.title {
-  font-family: 'Sedgwick Ave Display', monospace;
-  font-size: 5vw;
-  color:#FFF;
-}
-
-.subtitle {
-  font-family: 'Sedgwick Ave', monospace;
-  font-size: 2vw;
-  color:#FFF;
-}
-
-.people {
-  font-family: 'Sedgwick Ave', monospace;
-  font-size: 1vw;
-  color:#000;
-}
-
-
 
 .image_overlay {
   opacity:40%;
