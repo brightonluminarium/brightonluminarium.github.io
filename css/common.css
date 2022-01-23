@@ -43,19 +43,19 @@ html, body {
 }
 
 .title {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Sedgwick Ave Display', monospace;
   font-size: 5vw;
   color:#FFF;
 }
 
 .subtitle {
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Sedgwick Ave', monospace;
   font-size: 2vw;
   color:#FFF;
 }
 
 .people {
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Sedgwick Ave', monospace;
   font-size: 1vw;
   color:#000;
 }
@@ -84,7 +84,7 @@ html, body {
 
 
 h1 {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Sedgwick Ave Display', monospace;
   font-size: 100px;
 }
 
