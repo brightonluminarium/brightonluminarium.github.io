@@ -31,6 +31,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- <link rel="icon" type="image/png" href="dist/images/favicon.png"> -->
 
+
+  <!--  menu file
+
+<?
+php include 'leftmenu.php';
+?>
+
 </head>
 <body class="code-snippets-visible">
 
@@ -61,16 +68,8 @@
 
 
 <!--Navigation menu on left hand side;  this saves copying the code into every page, and when the menu is modified, we just modify one file, leftmenu.html -->
-    <div id="leftmenu">
-    </div>
+<script id="leftmenu" src="leftmenu.js"></script>
 
-    <script>
-    $(function(){
-      $("#leftmenu").load("leftmenu.html");
-    });
-    </script>
-    <!--end of left hand Navigation bar-->
-  
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
