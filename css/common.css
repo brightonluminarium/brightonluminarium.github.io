@@ -34,6 +34,10 @@ h2 {
 }
 
 
+li {
+    border-bottom: 20px solid #fff;
+}
+
 
 .sidenav {
   position: sticky;
