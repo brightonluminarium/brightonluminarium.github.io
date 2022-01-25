@@ -34,20 +34,10 @@ h2 {
 }
 
 
-li {
-    border-bottom: 20px solid #fff;
-}
-
-
 .sidenav {
   position: sticky;
   position: -webkit-sticky;
   top:0;
-}
-
-
-#sidenav li {
-  border-bottom: -25px solid #fff;
 }
 
 
