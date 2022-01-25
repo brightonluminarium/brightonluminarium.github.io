@@ -43,8 +43,13 @@ li {
   position: sticky;
   position: -webkit-sticky;
   top:0;
+}
+
+
+#sidenav li {
   border-bottom: 5px solid #fff;
 }
+
 
 .introvid {
   /* width: auto; */
