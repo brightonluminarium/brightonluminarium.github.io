@@ -74,8 +74,9 @@ h2 {
 
 .image_overlay {
   opacity:40%;
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  /* width: 100vw; */
+  height: 66vh;
   object-fit: cover;
   padding: 0px;
 }
