@@ -4,14 +4,12 @@ html, body {
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   color:#222222;
 }
 
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   font-size: 4.0em;
   color:#ffffff;
 }
@@ -20,7 +18,6 @@ html, body {
 .subtitle {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
   color:#dddddd;
 }
@@ -29,18 +26,16 @@ html, body {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   font-size: 4.0em;
-  color:#dddddd;
+  color:#aaaaaa;
 }
 
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
-  color:#aaaaaa;
+  color:#888888;
 }
 
 .sidenav {
