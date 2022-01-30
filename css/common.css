@@ -35,7 +35,7 @@ p.tablecaption {
   width: 80%;
 }
 
-td.tablecaption {
+table tr td.tablecaption {
   width: 100%;
 }
 
