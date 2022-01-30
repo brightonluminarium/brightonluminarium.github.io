@@ -43,6 +43,8 @@ p.tablecaption {
 
 .BLimgs {
   border: 4px solid #cccccc;
+  hspace: 20px;
+  vspace: 20px;
 }
 
 
