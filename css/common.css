@@ -31,10 +31,6 @@ html, body {
   text-align: center;
 }
 
-p.tablecaption {
-  width: 80%;
-}
-
 table tr td.tablecaption {
   width: 100%;
 }
