@@ -33,6 +33,7 @@ html, body {
 
 table tr td.tablecaption {
   width: 100%;
+  float: center;
 }
 
 .BLimgs {
