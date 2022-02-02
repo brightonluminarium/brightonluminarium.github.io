@@ -29,10 +29,13 @@ html, body {
   font-style: italic;
   color:#444444;
   text-align: center;
+  float: center;
+  margin: auto;
+  
 }
 
 table tr td.tablecaption {
-  width: 100%;
+  width: 80%;
   float: center;
 }
 
