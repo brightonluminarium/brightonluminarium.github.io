@@ -41,11 +41,6 @@ table tr td.tablecaption {
   float: center;
 }
 
-p.tablecaption {
-  width: 80%;
-  margin: auto;
-}
-
 .BLimgs {
   border: 4px solid #cccccc;
   margin: 20px 20px 20px 100px;
