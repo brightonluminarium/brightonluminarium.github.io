@@ -231,7 +231,7 @@ div.content {
   .sidebar {
      position: relative;
      width: 100%;
-     height: 30px;
+     height: 75px;
   }
   
   .sidebar a.icon {
