@@ -1,3 +1,38 @@
 
-Not sure
+Not sure what this does:
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+In common.css - original way to fiddle left menu..
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+In leftmenu.html...  (note sure what it did!)
+      
+     <script>
+      function myFunction() {
+       var x = document.getElementById("mysidebar");
+      if (x.className === "sidebar") {
+         x.className += " responsive";
+      } else {
+         x.className = "sidebar";
+  }
+} 
+      </script>
