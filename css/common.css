@@ -196,6 +196,7 @@ h2 {
 }
 
 div.content {
+  font-family: 'Montserrat', sans-serif;
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
