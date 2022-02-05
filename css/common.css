@@ -221,17 +221,19 @@ div.content {
   }
 }
 
+
+
 <-- Top menu attempt -->
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #222222;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -239,12 +241,12 @@ div.content {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #444444;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #888888;
   color: white;
 }
 
