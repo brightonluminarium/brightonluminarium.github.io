@@ -6,9 +6,6 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
   color:#222222;
-  position: absolute;
-  top: 8px;
-  left: 8px;
 }
 
 .title {
@@ -172,9 +169,12 @@ h2 {
 
 div.content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 200px;
+  margin-left: 10px;
   padding: 1px 16px;
   height: 100%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
 }
 
 
