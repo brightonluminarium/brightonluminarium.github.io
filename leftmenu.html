@@ -31,8 +31,19 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars" style="font-size: 3em;"></i>
   </a>
-            
-      </div>
+  </div>
+
+<script>
+ function myFunction() {
+   var x = document.getElementById("myTopnav");
+   if (x.className === "topnav") {
+     x.className += " responsive"; 
+   } else {
+     x.className = "topnav";
+   }
+}
+</script>
+      
       
 
 
