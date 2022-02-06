@@ -169,22 +169,12 @@ h2 {
 
 div.content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 10px;
+  margin-left: 200px;
   padding: 1px 16px;
   height: 100%;
   position: absolute;
   top: 8px;
-  left: 8px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -225,6 +215,9 @@ div.content {
 }
 
 @media screen and (max-width: 800px) {
+  
+  div.content { margin-left: 10px; }
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
