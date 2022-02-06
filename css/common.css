@@ -185,7 +185,6 @@ h2 {
 }
 
 .sidebar a: hover { 
- background-color: #dddddd;
   color: black;
 }
 
@@ -201,7 +200,6 @@ h2 {
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #999999;
   color: white;
 }
 
