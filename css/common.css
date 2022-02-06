@@ -167,48 +167,6 @@ h2 {
 
 
 
-.sidebar {
-  width: 200px;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
-}
-
-.sidebar a {
-  float: left;
-  display: block;
-  color: black;
-  padding: 8px;
-  text-decoration: none;
-}
-
-.sidebar a: hover { 
-  color: black;
-}
-
-img a: hover { 
-  background-color: #ffffff;
-}
-
-  
-
-.sidebar a.active {
-  background-color: #ffffff;
-  color: black;
-}
-
-.sidebar .icon {
-  display: none;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #888888;
-  color: white;
-}
-
 div.content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 200px;
