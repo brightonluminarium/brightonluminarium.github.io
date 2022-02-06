@@ -221,54 +221,66 @@ div.content {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffaaaa;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
-  .sidebar a:not(:first-child) {display: none;}
-  .sidebar a.icon {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
     float: right;
     display: block;
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
 @media screen and (max-width: 800px) {
- 
-  .sidebar {
-     position: relative;
-     width: 100%;
-     height: 275px;
-     background-color: #ffffff;
-     color: black;
-  }
-  
-  .sidebar a.icon {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  
-  .sidebar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  div.content {
-    margin-left: 10px;
-  }
-  
-  .sidebar.responsive {position: relative;}
-  
-  .sidebar.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    text-size: 3em;
-  }
-  
-  .sidebar.responsive a {
+  .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
+
+
