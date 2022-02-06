@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Brighton Luminarium</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<link rel="stylesheet" href="css/common.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<!--Navigation menu code;  this saves copying the code into every page, and when the menu is modified, we just modify one file, leftmenu.html -->
+  
+  
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+  <script id="leftmenu" src="leftmenu.js"></script>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+      
+<div class="sidebar" id="mysidebar">
+  <script id="leftmenu" src="leftmenu.js"></script>
+  </div>   
+    
+  <div class="content">
+ <br>
+      <h1>Motivation</h1>
+      
+    <img src="images/Luminarium_sm.png" width="360px" align="right">
+
+      
+      <p>The motivation for building the Brighton Luminarium at the Black Rock site are as follows:</p>
+      <ul>
+        
+<li>Science centres have a proven track record of being popular and commercially successful across the UK (see the tables on page 8 and 10), with visitors consisting of school groups and local, national and international tourists.<br><br></li>  
+<li>Be a major tourist attraction, attracting over 300,000 visitors per year (as do other science centres across the country) with unique, inspiring architecture. Over 20 million people visit UK science centres each year, yet the nearest to Brighton is a 45-minute drive away.<br><br></li>
+        <li>It will be a unique attraction to showcase Brighton, consisting of the first Quantum Museum in the world.  Innovative architecture, exhibits and interactives will create a memorable and exciting day out for tourists, families and school groups alike.<br><br></li>
+<li>Based on visitor numbers at similar venues around the UK (see table on page 8), we would expect at least 300,000 visitors to the Brighton Luminarium per annum.<br><br></li>
+<li>Brighton’s Palace Pier, 2km away from Black Rock, is the most popular UK attraction outside London, with almost 5 million visitors each year.<br><br></li>
+<li>Volk’s Electric Railway, a popular heritage attraction with over 150,000 journeys each year, would act as an accessible link between the Luminarium, Palace Pier & Aquarium.<br><br></li>
+<li>The Brighton Luminarium would benefit local school children, especially those in the socio-economically deprived coastal communities, by supporting science teaching in schools and colleges, providing curriculum enriching activities in state-of-the-art classrooms for all ages. Novel demonstrations and activities using specialist equipment that is rarely available in schools (such as expensive thermal cameras) will help inspire the next generation to study science and technology subjects.<br><br></li>
+<li>Provide a unique venue hire and conference facility, with the classrooms being available for hire as event venues outside of school hours.<br><br></li>
+<li>Showcase and promote Brighton’s scientific, digital & creative industries, and raise awareness of Brighton’s world-leading scientific research at its two universities (including Nobel Prize winning research), and the city’s forward-looking ethos.<br><br></li>
+        <li>Regenerate the Black Rock area.<br><br></li>
+      </ul>
+<p>The unique location at Black Rock will attract visitors from other nearby attractions, such as Brighton’s Palace Pier just 2km away (the 5th most visited attraction in the UK, with 4.9M visitors in 2019) and the Volk’s Electric Railway (with over 150,000 journeys per year).  The addition of a new year-round tourist destination in Brighton will also help the city reach a critical number of attractions required to encourage the large number of day and weekend visitors to stay longer in Brighton, thus benefitting the wider local economy.</p>
+
+ 
+  </div>
+  
+  <hr>
+
+<!-- End Document -->
+</body>
+</html>
