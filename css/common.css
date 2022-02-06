@@ -195,8 +195,8 @@ div.content {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
-  width: 200px;
+  background-color: #ffffff;
+  width: 300px;
 }
 
 .topnav a {
@@ -221,6 +221,7 @@ div.content {
 
 .topnav .icon {
   display: none;
+  color: #000000;
 }
 
 @media screen and (max-width: 800px) {
