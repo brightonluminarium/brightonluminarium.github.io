@@ -185,8 +185,11 @@ h2 {
 }
 
 .sidebar a: hover { 
+ background-color: #dddddd;
   color: black;
 }
+
+  
 
 .sidebar a.active {
   background-color: #ffffff;
@@ -247,5 +250,17 @@ div.content {
     margin-left: 10px;
   }
   
+  .sidebar.responsive {position: relative;}
+  
+  .sidebar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .sidebar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
-
