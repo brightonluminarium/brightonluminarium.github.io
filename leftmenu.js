@@ -12,7 +12,6 @@ fetch('leftmenu.html')
    var x = document.getElementById("mysidebar");
    if (x.className === "sidebar") {
      x.className += " responsive"; 
-       alert("Testing: ran drop menu function");
    } else {
      x.className = "sidebar";
    }
