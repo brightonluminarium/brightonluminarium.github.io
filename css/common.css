@@ -233,6 +233,8 @@ div.content {
 
 @media screen and (max-width: 800px) {
   
+  h1 { color: red; }
+  
   .sidebar {
      position: relative;
      width: 100%;
