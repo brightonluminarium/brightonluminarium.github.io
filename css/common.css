@@ -189,6 +189,10 @@ h2 {
   color: black;
 }
 
+img a: hover { 
+  background-color: #ffffff;
+}
+
   
 
 .sidebar a.active {
