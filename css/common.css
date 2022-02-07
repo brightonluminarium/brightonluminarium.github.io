@@ -197,25 +197,28 @@ div.content {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-color: #cccccc;
 }
 
 .topnav a:hover {
-  background-color: #ffaaff;
+  background-color: #8833aa;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #aaffaa;
+  background-color: #ffffff;
   color: white;
 }
 
 .topnav .icon {
   display: none;
   color: #000000;
+  font-size: 3em;
 }
 
 @media screen and (max-width: 800px) {
   
+  margin-left: 10px;
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
