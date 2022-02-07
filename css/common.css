@@ -178,6 +178,7 @@ div.content {
 
 div.menuitems {
   width: 200px;
+  height: 100px;
   opacity:  1.0;
   z-index:99;
 }
