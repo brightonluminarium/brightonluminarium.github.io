@@ -216,7 +216,6 @@ div.content {
 
 @media screen and (max-width: 800px) {
   
-  div.content { margin-left: 10px; }
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
