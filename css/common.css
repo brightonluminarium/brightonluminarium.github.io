@@ -176,7 +176,9 @@ div.content {
   top: 8px;
 }
 
-
+div.menuitems {
+  width: 200px;
+}
 
 
 
@@ -219,6 +221,7 @@ div.content {
 @media screen and (max-width: 800px) {
   
   margin-left: 10px;
+  .meunitems {width: 0px;}
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -228,6 +231,9 @@ div.content {
 }
 
 @media screen and (max-width: 800px) {
+  
+  .meunitems {width: 200px;}
+  
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
