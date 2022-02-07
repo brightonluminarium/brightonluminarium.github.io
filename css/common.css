@@ -185,6 +185,7 @@ div.menuitems {
 
 
 
+
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -216,6 +217,8 @@ div.menuitems {
   display: none;
   color: #000000;
   font-size: 1.5em;
+  width: 50px;
+  height: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -227,6 +230,10 @@ div.menuitems {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  
+  div.content {
+    margin-left: 10px;
   }
 }
 
