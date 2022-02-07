@@ -217,8 +217,6 @@ div.menuitems {
   display: none;
   color: #000000;
   font-size: 1.5em;
-  width: 50px;
-  height: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -229,17 +227,18 @@ div.menuitems {
   .topnav a.icon {
     float: right;
     display: block;
+    
+  width: 50px;
+  height: 50px;
   }
   
   div.content {
-    margin-left: 200px;
+      margin-left: 10px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  
-  .meunitems {width: 250px;}
-  
+    
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
