@@ -182,6 +182,8 @@ div.menuitems {
   background-color: white;
   opacity:  1.0;
   z-index:99;
+  top: 8px;
+  left: 8px;
 }
 
 
