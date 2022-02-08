@@ -178,7 +178,7 @@ h2 {
   width: 200px;
   background-color: #ee5599;
   opacity:  1.0;
-  z-index:99;
+  z-index: 9;
 
 }
 
@@ -192,6 +192,8 @@ h2 {
   overflow: hidden;
   background-color: #ffffff;
   width: 300px;
+  opacity:  1.0;
+  z-index: 9;
 }
 
 .topnav a {
