@@ -229,7 +229,8 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .meunitems {
-    width: 0px;
+    position: absolute;
+    left: -500px;
     opacity: 1.0;
   }
 
