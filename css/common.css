@@ -172,6 +172,8 @@ h2 {
   margin-left: 200px;
   position: absolute;
   top: 8px;
+  text-align: left;
+  align: left;
 }
 
 .menuitems {
