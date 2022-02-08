@@ -196,7 +196,6 @@ h2 {
   background-color: #ffffff;
   width: 200px;
   opacity:  1.0;
-  z-index: 9;
   float: left;
 }
 
@@ -204,9 +203,7 @@ h2 {
   float: left;
   display: block;
   color: #333333;
-  text-align: center;
   padding: 5px 5px;
-  text-decoration: none;
   font-size: 17px;
   background-color: #cccccc;
   opacity: 1.0;
