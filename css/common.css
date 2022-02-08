@@ -179,7 +179,6 @@ h2 {
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
-  line-height: 50%;
   text-align: left;
 }
 
@@ -202,7 +201,7 @@ h2 {
   display: block;
   color: #333333;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
   font-size: 17px;
   background-color: #cccccc;
@@ -222,6 +221,7 @@ h2 {
 .icon {
   color: #000000;
   font-size: 1.5em;
+  float: right;
 }
 
 @media screen and (max-width: 800px) {
