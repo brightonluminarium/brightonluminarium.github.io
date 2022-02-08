@@ -230,7 +230,7 @@ h2 {
   
   .meunitems {
     position: absolute;
-    left: -500px;
+    display: none;
     opacity: 1.0;
   }
 
