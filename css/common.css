@@ -246,11 +246,7 @@ h2 {
 @media screen and (max-width: 800px) {
     
   .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    left: 25;
-    top: 0;
-  }
+
   .topnav.responsive a {
     float: none;
     display: block;
