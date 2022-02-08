@@ -196,12 +196,14 @@ h2 {
   background-color: #ffffff;
   width: 200px;
   opacity:  1.0;
+  z-index: 9;
   float: left;
 }
 
 .topnav a {
   float: left;
   display: block;
+  text-decoration: none;
   color: #333333;
   padding: 5px 5px;
   font-size: 17px;
