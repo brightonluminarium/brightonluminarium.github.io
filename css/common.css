@@ -224,7 +224,10 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
-  .meunitems {width: 0px;}
+  .meunitems {
+    width: 0px;
+    opacity: 1.0;
+  }
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -248,7 +251,7 @@ h2 {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    opacity: 1.0;
   }
 }
 
