@@ -170,8 +170,6 @@ h2 {
 .content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 200px;
-  padding: 1px 16px;
-  height: 100%;
   position: absolute;
   top: 8px;
 }
