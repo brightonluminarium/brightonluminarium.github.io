@@ -181,6 +181,7 @@ h2 {
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
+  align: left;
   text-align: left;
 }
 
@@ -196,6 +197,7 @@ h2 {
   width: 200px;
   opacity:  1.0;
   z-index: 9;
+  float: left;
 }
 
 .topnav a {
@@ -223,7 +225,6 @@ h2 {
 .icon {
   color: #000000;
   font-size: 1.5em;
-  float: right;
 }
 
 @media screen and (max-width: 800px) {
