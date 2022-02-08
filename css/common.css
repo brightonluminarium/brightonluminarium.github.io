@@ -172,6 +172,7 @@ h2 {
   margin-left: 200px;
   padding: 1px 16px;
   height: 100%;
+  position: absolute;
   top: 8px;
 }
 
@@ -233,7 +234,7 @@ h2 {
     display: block;
   }
   
-  div.content {
+  .content {
       margin-left: 10px;
   }
 }
