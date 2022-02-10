@@ -177,6 +177,7 @@ h2 {
 }
 
 .menuitems {
+  top: 20px;
   width: 300px;
   background-color: #ee5599;
   opacity:  1.0;
