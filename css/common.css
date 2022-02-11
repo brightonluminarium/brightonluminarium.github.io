@@ -196,7 +196,7 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
-  height: 102px;
+  height: 75px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -228,7 +228,7 @@ h2 {
 
 .icon {
   color: #000000;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 @media screen and (max-width: 800px) {
