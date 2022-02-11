@@ -178,6 +178,10 @@ h2 {
   line-height: 15px;
 }
 
+.menuicon a:hover {
+  background-color: #ffdddd;
+}
+
 .menuitems {
   width: 180px;
   background-color: #ffffff;
@@ -216,7 +220,7 @@ h2 {
 
 
 .topnav a:hover {
-  background-color: #bbbbff;
+  background-color: #ddddff;
   color: black;
 }
 
