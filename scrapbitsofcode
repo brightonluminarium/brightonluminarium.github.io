@@ -23,6 +23,33 @@ In common.css - original way to fiddle left menu..
 }
 
 
+.logo {
+  height: 75px;
+  padding: 5px;
+  opacity: 0.5;
+  display: inline-block;
+}
+.logo:hover {
+  opacity: 1.0;
+}
+
+
+
+
+  .meunitems {
+    position: absolute;
+    height: 75px;
+    margin-top: 25px;
+    display: none;
+    opacity: 1.0;
+  }
+
+
+  .topnav a:not(:first-child) {display: none;}
+
+
+
+
 
 In leftmenu.html...  (note sure what it did!)
       
