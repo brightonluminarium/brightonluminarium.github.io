@@ -191,8 +191,10 @@ h2 {
 
 
 
+
+
 .topnav {
-  overflow: hidden;
+  position: relative;
   background-color: #ffffff;
   width: 200px;
   opacity:  1.0;
@@ -201,6 +203,9 @@ h2 {
 }
 
 .topnav a {
+   float: none;
+   display: block;
+   opacity: 1.0;
   float: left;
   display: block;
   text-decoration: none;
