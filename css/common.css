@@ -237,7 +237,6 @@ h2 {
     display: none;
   }
 
-  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     display: block;
   }
