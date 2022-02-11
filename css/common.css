@@ -246,6 +246,10 @@ h2 {
     display: block;
   }
   
+  .topnav a.menuimagelink {
+    display: block;
+  }
+  
   .content {
       margin-left: 10px;
   }
