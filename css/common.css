@@ -172,7 +172,6 @@ h2 {
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
-  top: 0px;
   align: left;
   text-align: left;
   margin: auto;
@@ -185,7 +184,7 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
-  margin-bottom: 25px;
+  padding-bottom: 25px; 
 }
 
 
