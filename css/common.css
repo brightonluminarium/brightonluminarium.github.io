@@ -180,6 +180,7 @@ h2 {
 
 .menuicon a:hover {
   background-color: #ffdddd;
+  color: black;
 }
 
 .menuitems {
@@ -192,7 +193,10 @@ h2 {
   padding-bottom: 25px; 
 }
 
-
+.menuitems a:hover {
+  background-color: #ddddff;
+  color: black;
+}
 
 
 
@@ -218,11 +222,6 @@ h2 {
   opacity: 1.0;
 }
 
-
-.topnav a:hover {
-  background-color: #ddddff;
-  color: black;
-}
 
 .topnav a.active {
   background-color: #ffffff;
