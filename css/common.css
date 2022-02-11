@@ -236,10 +236,12 @@ h2 {
   .meunitems {
     display: none;
   }
+  
+  .topnav a.menuitems {
+    display: none;
+  } 
+  
 
-  .topnav a.icon {
-    display: block;
-  }
   
   .content {
       margin-left: 10px;
