@@ -196,6 +196,7 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
+  height: 102px;
   opacity:  1.0;
   z-index: 9;
   float: left;
