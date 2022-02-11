@@ -233,7 +233,12 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
-  .topnav a {display: none;}
+  .topnav a {
+    display: none;
+    float: none;
+    opacity: 1.0;
+  }
+  
   .topnav a.icon {
     display: block;
   }
