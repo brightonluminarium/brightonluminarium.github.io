@@ -233,14 +233,6 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
-  .menuitems {
-    position: absolute;
-    height: 75px;
-    margin-top: 25px;
-    display: none;
-    opacity: 1.0;
-  }
-
   .topnav a {display: none;}
   .topnav a.icon {
     display: block;
