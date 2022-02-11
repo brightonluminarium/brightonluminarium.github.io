@@ -177,7 +177,16 @@ h2 {
 }
 
 .menuitems {
-  width: 300px;
+  width: 200px;
+  background-color: #ee5599;
+  opacity:  1.0;
+  z-index: 9;
+  align: left;
+  text-align: left;
+}
+
+.menuicon {
+  width: 200px;
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
