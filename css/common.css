@@ -174,13 +174,11 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   top: 0px;
-  align: left;
   text-align: left;
-  margin: auto;
 }
 
 .menuitems {
-  width: 150px;
+  width: 180px;
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
@@ -200,7 +198,7 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
-  height: 50px;
+  height: 30px;
   top-margin: 0px;
   opacity:  1.0;
   z-index: 9;
