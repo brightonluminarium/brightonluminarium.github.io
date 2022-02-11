@@ -226,10 +226,6 @@ h2 {
   color: white;
 }
 
-.icon a {
-  color: #000000;
-  font-size: 3em;
-}
 
 @media screen and (max-width: 800px) {
   
