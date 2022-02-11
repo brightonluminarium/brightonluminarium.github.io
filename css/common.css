@@ -234,11 +234,7 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .meunitems {
-    position: absolute;
-    height: 75px;
-    margin-top: 25px;
     display: none;
-    opacity: 1.0;
   }
 
   .topnav a:not(:first-child) {display: none;}
