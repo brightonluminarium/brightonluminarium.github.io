@@ -168,7 +168,7 @@ h2 {
 
 
 .menuicon {
-  width: 240px;
+  width: 235px;
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
@@ -177,7 +177,7 @@ h2 {
 }
 
 .menuitems {
-  width: 240px;
+  width: 235px;
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
@@ -203,18 +203,15 @@ h2 {
 }
 
 .topnav a {
-   float: none;
-   display: block;
-   opacity: 1.0;
-  float: left;
+  float: none;
   display: block;
   text-decoration: none;
   color: #333333;
   padding: 5px 5px;
-  font-size: 17px;
-  background-color: #cccccc;
+  font-size: 2.0em;
   opacity: 1.0;
 }
+
 
 .topnav a:hover {
   background-color: #bbbbff;
@@ -239,9 +236,6 @@ h2 {
     display: block;
   }
   
-  .topnav a.menuimagelink {
-    display: block;
-  }
   
   .content {
       margin-left: 10px;
