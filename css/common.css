@@ -172,13 +172,14 @@ h2 {
   background-color: #ee5599;
   opacity:  1.0;
   z-index: 9;
+  top: 0px;
   align: left;
   text-align: left;
 }
 
 .menuitems {
   width: 235px;
-  background-color: #ee5599;
+  background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
   align: left;
