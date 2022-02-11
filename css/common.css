@@ -241,7 +241,7 @@ h2 {
     opacity: 1.0;
   }
 
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {display: none;}
   .topnav a.icon {
     display: block;
   }
