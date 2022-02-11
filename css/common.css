@@ -175,6 +175,7 @@ h2 {
   z-index: 9;
   top: 0px;
   text-align: left;
+  line-height: 30px;
 }
 
 .menuitems {
@@ -198,8 +199,6 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
-  height: 30px;
-  top-margin: 0px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -237,6 +236,7 @@ h2 {
   
   .topnav a.icon {
     display: block;
+    top: 0px;
   }
   
   
