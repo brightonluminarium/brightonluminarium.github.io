@@ -168,11 +168,12 @@ h2 {
 
 
 .menuicon {
+  position: relative;
   width: 235px;
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
-  text-align:top;
+  top: 0px;
   align: left;
   text-align: left;
   margin: auto;
