@@ -175,7 +175,7 @@ h2 {
   z-index: 9;
   top: 0px;
   text-align: left;
-  line-height: 30px;
+  line-height: 15px;
 }
 
 .menuitems {
@@ -186,6 +186,7 @@ h2 {
   align: left;
   text-align: left;
   padding-bottom: 25px; 
+  padding: 5px 5px;
 }
 
 
@@ -208,7 +209,6 @@ h2 {
   float: none;
   display: block;
   text-decoration: none;
-  padding: 5px 5px;
   color: #333333;
   font-size: 1.0em;
   opacity: 1.0;
