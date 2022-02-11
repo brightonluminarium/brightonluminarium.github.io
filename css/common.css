@@ -166,14 +166,6 @@ h2 {
   align: left;
 }
 
-.menuitems {
-  width: 200px;
-  background-color: #ee5599;
-  opacity:  1.0;
-  z-index: 9;
-  align: left;
-  text-align: left;
-}
 
 .menuicon {
   width: 200px;
@@ -184,6 +176,14 @@ h2 {
   text-align: left;
 }
 
+.menuitems {
+  width: 200px;
+  background-color: #ee5599;
+  opacity:  1.0;
+  z-index: 9;
+  align: left;
+  text-align: left;
+}
 
 
 
@@ -233,7 +233,7 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
-  .meunitems {
+  .menuitems {
     position: absolute;
     height: 75px;
     margin-top: 25px;
