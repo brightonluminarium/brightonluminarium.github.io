@@ -201,6 +201,7 @@ h2 {
   background-color: #ffffff;
   width: 200px;
   height: 75px;
+  top-margin: 0px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -211,7 +212,6 @@ h2 {
   display: block;
   text-decoration: none;
   color: #333333;
-  padding: 5px 5px;
   font-size: 1.0em;
   opacity: 1.0;
 }
