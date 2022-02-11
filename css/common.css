@@ -175,10 +175,16 @@ h2 {
   align: left;
   text-align: left;
   margin: auto;
+  
+}
+
+
+.menuicon a.icon {
+   font-size: 2.0em;
 }
 
 .menuitems {
-  width: 235px;
+  width: 180px;
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
@@ -188,7 +194,8 @@ h2 {
 }
 
 
-
+.menuitems a {
+  
 
 
 
