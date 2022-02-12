@@ -52,8 +52,7 @@ html, body {
 }
 
 .decorimage {
-  display: block;
-   margin-left: auto;
+  float: right; 
 }
 
 
@@ -255,7 +254,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 500px) {  
+@media screen and (max-width: 550px) {  
   .decorimage {
     align: center;
     margin-left: auto;
