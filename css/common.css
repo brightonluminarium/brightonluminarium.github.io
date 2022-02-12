@@ -174,17 +174,7 @@ h2 {
   top: 0px;
   text-align: left;
   line-height: 15px;
-}
-
-a.menuicon {
-  background-color: #ffffff;
-  text-color: #ffffff;
-  color: #ffffff;
-}
-
-.menuicon a:hover {
-  background-color: #ffffff;
-  color: black;
+  margin-left: -15px;
 }
 
 .menuitems {
@@ -234,6 +224,11 @@ a.menuicon {
 
 
 @media screen and (max-width: 800px) {
+  
+  
+.menuicon {
+  margin-left: 0px;
+}
   
   .topnav a {
     display: none;
