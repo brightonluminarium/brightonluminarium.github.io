@@ -176,7 +176,7 @@ h2 {
   line-height: 15px;
 }
 
-.menuicon a {
+a.menuicon {
   background-color: #ffffff;
   text-color: #ffffff;
   color: #ffffff;
