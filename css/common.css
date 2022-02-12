@@ -174,7 +174,7 @@ h2 {
   top: 0px;
   text-align: left;
   line-height: 15px;
-  margin-left: -15px;
+  margin-left: -40px;
 }
 
 .menuitems {
@@ -197,7 +197,7 @@ h2 {
 
 
 
-.topnav {
+.leftmenubar {
   position: relative;
   background-color: #ffffff;
   width: 200px;
@@ -206,7 +206,7 @@ h2 {
   float: left;
 }
 
-.topnav a {
+.leftmenubar a {
   float: none;
   display: block;
   text-decoration: none;
@@ -217,7 +217,7 @@ h2 {
 }
 
 
-.topnav a.active {
+.leftmenubar a.active {
   background-color: #ffffff;
   color: white;
 }
@@ -230,13 +230,13 @@ h2 {
   margin-left: 0px;
 }
   
-  .topnav a {
+  .leftmenubar a {
     display: none;
     float: none;
     opacity: 1.0;
   }
   
-  .topnav a.icon {
+  .leftmenubar a.icon {
     display: block;
     top: 0px;
     text-color: black;
@@ -250,9 +250,9 @@ h2 {
 
 @media screen and (max-width: 800px) {
     
-  .topnav.responsive {position: relative;}
+  .leftmenubar.responsive {position: relative;}
 
-  .topnav.responsive a {
+  .leftmenubar.responsive a {
     float: none;
     display: block;
     opacity: 1.0;
