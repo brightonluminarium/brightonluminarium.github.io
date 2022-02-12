@@ -25,7 +25,7 @@
 
 <!--Navigation menu code;  this saves copying the code into every page, and when the menu is modified, we just modify one file, leftmenu.html -->
   
-<div class="topnav" id="myTopnav">
+<div class="leftmenubar" id="theleftmenubar">
 
   
    <script id="leftmenu" src="leftmenu.js"></script>
@@ -36,11 +36,11 @@
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  var x = document.getElementById("theleftmenubar");
+  if (x.className === "leftmenubar") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "leftmenubar";
   }
 }
 </script>
