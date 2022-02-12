@@ -52,6 +52,7 @@ html, body {
 }
 
 .decorimage {
+  display: block;
    align: right;
    margin-left: auto;
    margin-right: auto;
@@ -258,6 +259,7 @@ h2 {
     align: center;
     margin-left: auto;
     margin-right: auto;
+    display: block;
   }
 }
 
