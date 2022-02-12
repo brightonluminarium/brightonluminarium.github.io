@@ -170,10 +170,6 @@ h2 {
 .menuicon {
   position: relative;
   width: 235px;
-  background-color: #ffffff;
-  text-color: #ffffff;
-  color: #ffffff;
-  opacity:  1.0;
   z-index: 9;
   top: 0px;
   text-align: left;
