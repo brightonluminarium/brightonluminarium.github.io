@@ -171,7 +171,8 @@ h2 {
   position: relative;
   width: 235px;
   background-color: #ffffff;
-  text-color: white;
+  text-color: #ffffff;
+  color: #ffffff;
   opacity:  1.0;
   z-index: 9;
   top: 0px;
