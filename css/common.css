@@ -176,6 +176,12 @@ h2 {
   line-height: 15px;
 }
 
+.menuicon a {
+  background-color: #ffffff;
+  text-color: #ffffff;
+  color: #ffffff;
+}
+
 .menuicon a:hover {
   background-color: #ffffff;
   color: black;
