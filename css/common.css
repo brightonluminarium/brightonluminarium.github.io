@@ -1,5 +1,4 @@
 
-
 html, body {
   margin:0;
   padding:0;
@@ -188,7 +187,6 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
-  padding-bottom: 25px; 
 }
 
 .menuitems a:hover {
@@ -249,11 +247,7 @@ h2 {
   .content {
       margin-left: 10px;
   }
-  
-  .menuitems {
-  padding-bottom: 0px; 
-}
-  
+
 }
 
 
