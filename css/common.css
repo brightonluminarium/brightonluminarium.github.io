@@ -171,7 +171,7 @@ h2 {
 }
 
  .frontpagecontent {
-    margin-top: 420px;
+    margin-top: 410px;
   }  
 
 .menuicon {
@@ -267,9 +267,10 @@ h2 {
 }
 
 
-@media screen and (max-width: 340px) {
-  .frontpagecontent {
-    margin-top: 200px;
+@media screen and (max-width: 400px) {
+  
+ .frontpagecontent {
+    margin-top: 610px;
   }  
 }
 
