@@ -266,7 +266,7 @@ h2 {
 @media screen and (max-width: 400px) {
   .content {
     margin-top: 600px;
-    text-color: red;
+    background-color: #ffbbbb;
   }
 }
 
