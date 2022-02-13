@@ -265,8 +265,8 @@ h2 {
 
 
 @media screen and (max-width: 340px) {
-  .content {
-    margin-top: 100px;
+  .frontpagecontent {
+    margin-top: 200px;
   }  
 }
 
