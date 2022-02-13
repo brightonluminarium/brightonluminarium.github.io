@@ -244,14 +244,15 @@ h2 {
   
   .content {
     margin-left: 5px;
+    margin-top: 40px;
+    background-color: #aaffff;
   }
 
 }
 
 
 
-
-@media screen and (max-width: 550px) {  
+@media screen and (max-width: 560px) {  
   .decorimage {
     float: none;
     align: center;
