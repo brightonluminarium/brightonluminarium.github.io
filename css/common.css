@@ -247,7 +247,8 @@ h2 {
   
   .content {
       margin-left: 10px;
-      margin-top: 25px;
+      margin-top: 420px;
+      background-color: #ff00ff;
   }
 
 }
@@ -266,14 +267,9 @@ h2 {
 
 @media screen and (max-width: 400px) {
   .content {
-  font-family: 'Montserrat', sans-serif;
-  margin-left: 200px;
-  margin-top: 390px;
-  position: absolute;
-  top: 8px;
-  text-align: left;
-  align: left;
-  background-color: #ffffcc;
+    margin-top: 390px;
+    position: absolute;
+    background-color: #ffffcc;
   }
 }
 
