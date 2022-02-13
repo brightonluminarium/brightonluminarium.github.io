@@ -174,7 +174,6 @@ h2 {
 .menuicon {
   position: relative;
   width: 235px;
-  height: 55px;
   z-index: 9;
   top: 0px;
   text-align: left;
@@ -247,10 +246,13 @@ h2 {
     text-color: black;
   }
   
-  
   .content {
       margin-left: 10px;
   }
+  
+  .menuitems {
+  padding-bottom: 0px; 
+}
   
 }
 
