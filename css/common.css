@@ -168,7 +168,6 @@ h2 {
   top: 8px;
   text-align: left;
   align: left;
-  background-color: #ccffcc;
 }
 
 .menuicon {
@@ -248,7 +247,6 @@ h2 {
   .content {
       margin-left: 10px;
       margin-top: 420px;
-      background-color: #ff00ff;
   }
 
 }
@@ -269,7 +267,7 @@ h2 {
   .content {
     margin-top: 390px;
     position: absolute;
-    background-color: #ffffcc;
+    background-color: #ffccff;
   }
 }
 
