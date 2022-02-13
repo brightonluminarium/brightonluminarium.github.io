@@ -13,36 +13,28 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <link rel="stylesheet" href="css/common.css">
-
-
-
 </head>
-<body class="code-snippets-visible">
+  
+<body>
 
+<div class="leftmenubar" id="theleftmenubar">
+  <script id="leftmenu" src="leftmenu.js"></script>
+</div> 
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container float-left">
-
-  <div class="row">
-    
-    <div class="col-3">
+<script>
+function myFunction() {
+  var x = document.getElementById("theleftmenubar");
+  if (x.className === "leftmenubar") {
+    x.className += " responsive";
+  } else {
+    x.className = "leftmenubar";
+  }
+}
+</script>
       
-<!--Navigation menu on left hand side;  this saves copying the code into every page, and when the menu is modified, we just modify one file, leftmenu.html -->
-
-<script id="leftmenu" src="leftmenu.js"></script>
-<script id="replace_with_navbar" src="nav.js"></script>
-
-    </div>
-    
-    <div class="col-9">
-                <br>
+ <div class="content">
+ <br>
       <h1>Project collaborators</h1>
       
       <p>The following organisations are involved in the Brighton Luminarium project proposal.</p>
