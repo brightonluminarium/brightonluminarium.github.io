@@ -270,7 +270,7 @@ h2 {
 @media screen and (max-width: 400px) {
   
  .frontpagecontent {
-    margin-top: 800px;
+    height: 100px;
   }  
 }
 
