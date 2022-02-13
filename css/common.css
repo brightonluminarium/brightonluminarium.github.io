@@ -244,8 +244,7 @@ h2 {
   }
   
   .content {
-      margin-left: 10px;
-      margin-top: 435px;
+     margin-top: 435px;
   }
 
 }
@@ -265,11 +264,11 @@ h2 {
 
 
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 580px) {
   .content {
     margin-top: 390px;
     position: absolute;
-    background-color: #ccccff;
+    background-color: #ccffff;
   }
 }
 
