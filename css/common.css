@@ -163,7 +163,7 @@ h2 {
 .content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 200px;
-  margin-top: -35px;
+  margin-top: -45px;
   position: absolute;
   top: 8px;
   text-align: left;
@@ -270,7 +270,7 @@ h2 {
 @media screen and (max-width: 400px) {
   
  .frontpagecontent {
-    margin-top: 610px;
+    margin-top: 680px;
   }  
 }
 
