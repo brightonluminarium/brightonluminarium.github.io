@@ -163,13 +163,16 @@ h2 {
 .content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 200px;
-  margin-top: 410px;
+  margin-top: -35px;
   position: absolute;
   top: 8px;
   text-align: left;
   align: left;
 }
 
+ .frontpagecontent {
+    margin-top: 420px;
+  }  
 
 .menuicon {
   position: relative;
