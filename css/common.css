@@ -266,8 +266,14 @@ h2 {
 
 @media screen and (max-width: 400px) {
   .content {
-    margin-top: 600px;
-    background-color: #ffbbbb;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 200px;
+  margin-top: 390px;
+  position: absolute;
+  top: 8px;
+  text-align: left;
+  align: left;
+  background-color: #ffffcc;
   }
 }
 
