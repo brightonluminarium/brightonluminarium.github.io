@@ -264,11 +264,11 @@ h2 {
 
 
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 540px) {
   .content {
-    margin-top: 390px;
+    margin-top: 460px;
     position: absolute;
-    background-color: #ccffff;
+    background-color: #ffaaaa;
   }
 }
 
