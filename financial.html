@@ -13,36 +13,29 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <link rel="stylesheet" href="css/common.css">
-
 </head>
-<body class="code-snippets-visible">
+  
+<body>
 
+<div class="leftmenubar" id="theleftmenubar">
+  <script id="leftmenu" src="leftmenu.js"></script>
+</div> 
 
+<script>
+function myFunction() {
+  var x = document.getElementById("theleftmenubar");
+  if (x.className === "leftmenubar") {
+    x.className += " responsive";
+  } else {
+    x.className = "leftmenubar";
+  }
+}
+</script>
+      
+ <div class="content">
+ <br>
 
-
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container float-left">
-
-  <div class="row">
-
-    <div class="col-3">
-
-<!--Navigation menu on left hand side;  this saves copying the code into every page, and when the menu is modified, we just modify one file, leftmenu.html -->
-<script id="leftmenu" src="leftmenu.js"></script>
-<script id="replace_with_navbar" src="nav.js"></script>
-
-    </div>
-
-    <div class="col-9">
-
-       <br>
          <h1>Financial Considerations</h1>
       
 
@@ -53,21 +46,10 @@
       
       <p><b>The operating costs for a science and technology discovery centre</b> in Brighton can be estimated by looking at the costs involved in other, similar sized centres across the UK.  Such data is publicly available on the Government’s Companies House website. As with museums and science centres across the UK, the primary source of income would be via an admission fee for visitors.  Additional income streams for science centres include cafés and shops, parking fees, charitable grants and donations, corporate sponsorship and venue hire (including conferences, weddings, parties, functions, filming, etc).</p>
       
-      
-      
-
-
-    <!-- close column div -->
-    </div>
-  <!-- close row div -->
-  </div>
-
-<!-- close main div -->
+      <hr>
 </div>
-  
-  <hr>
+ 
 
-<!-- End Document -->
 </body>
 </html>
 
