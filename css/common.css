@@ -226,8 +226,7 @@ h2 {
 
 
 @media screen and (max-width: 800px) {
-  
-  
+
 .menuicon {
   margin-left: 0px;
 }
@@ -252,6 +251,8 @@ h2 {
 }
 
 
+
+
 @media screen and (max-width: 550px) {  
   .decorimage {
     float: none;
@@ -263,7 +264,8 @@ h2 {
 }
 
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 500px) {
   .content {
     margin-top: 390px;
     position: absolute;
