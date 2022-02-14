@@ -137,6 +137,7 @@ h2 {
   opacity: 0.5;
   display: inline-block;
 }
+
 .social:hover {
   opacity: 1.0;
 }
@@ -224,6 +225,8 @@ h2 {
 
 
 @media screen and (max-width: 800px) {
+  
+  h2 {margin-left: 20px;}
 
 .menuicon {
   margin-left: 0px;
