@@ -202,7 +202,6 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
-  height: 420px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -242,6 +241,7 @@ h2 {
     display: block;
     top: 0px;
     text-color: black;
+    height: 420px;
   }
   
   .content {
