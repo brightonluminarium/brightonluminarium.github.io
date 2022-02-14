@@ -162,7 +162,7 @@ h2 {
   top: 8px;
   text-align: left;
   align: left;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .menuicon {
@@ -173,7 +173,7 @@ h2 {
   text-align: left;
   line-height: 15px;
   margin-left: -40px;
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 .menuitems {
@@ -189,11 +189,6 @@ h2 {
   background-color: #ddddff;
   color: black;
 }
-
-
-
-
-
 
 .leftmenubar {
   position: relative;
