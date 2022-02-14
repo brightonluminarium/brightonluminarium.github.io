@@ -163,6 +163,7 @@ h2 {
   text-align: left;
   align: left;
   margin-top: 0px;
+  margin-top: -30px;
 }
 
 .frontpageformatfiddle {
@@ -177,7 +178,6 @@ h2 {
   text-align: left;
   line-height: 15px;
   margin-left: -40px;
-  margin-top: -50px;
 }
 
 .menuitems {
