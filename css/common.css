@@ -162,7 +162,7 @@ h2 {
 
 .content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 200px;
+  margin-left: 180px;
   position: relative;
   top: 8px;
   text-align: left;
@@ -171,7 +171,7 @@ h2 {
 
 .menuicon {
   position: relative;
-  width: 235px;
+  width: 230px;
   z-index: 9;
   top: 0px;
   text-align: left;
@@ -180,7 +180,7 @@ h2 {
 }
 
 .menuitems {
-  width: 180px;
+  width: 170px;
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
@@ -215,7 +215,6 @@ h2 {
   color: #333333;
   font-size: 1.0em;
   opacity: 1.0;
-  background-color: #aaaaaa;
 }
 
 
@@ -274,7 +273,6 @@ h2 {
     float: none;
     display: block;
     opacity: 1.0;
-    background-color: #ccccff;
   }
 }
 
