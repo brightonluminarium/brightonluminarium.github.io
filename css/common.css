@@ -202,6 +202,7 @@ h2 {
   position: relative;
   background-color: #ffffff;
   width: 200px;
+  height: 420px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -268,13 +269,14 @@ h2 {
 
 @media screen and (max-width: 800px) {
     
-  .leftmenubar.responsive {position: absolute;}
+  .leftmenubar.responsive {
+     position: relative;
+  }
 
   .leftmenubar.responsive a {
     float: none;
     display: block;
     opacity: 1.0;
-    height: 420px;
     background-color: #ccccff;
   }
 }
