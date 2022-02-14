@@ -127,9 +127,6 @@ h2 {
 }
 
 
-
-
-
 .social {
   height: 40px;
   padding: 5px;
@@ -158,11 +155,9 @@ h2 {
 
 
 
-
-
 .content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 180px;
+  margin-left: 165px;
   position: relative;
   top: 8px;
   text-align: left;
