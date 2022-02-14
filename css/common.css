@@ -226,8 +226,10 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
+  h1 {margin-top: 10px;}
+  
   h2 {margin-left: 20px;}
-
+  
 .menuicon {
   margin-left: 0px;
   margin-top: -10px;
