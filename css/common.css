@@ -215,6 +215,7 @@ h2 {
   color: #333333;
   font-size: 1.0em;
   opacity: 1.0;
+  background-color: #ffcccc;
 }
 
 
@@ -274,5 +275,7 @@ h2 {
     display: block;
     opacity: 1.0;
     height: 420px;
+    background-color: #ccccff;
   }
 }
+
