@@ -215,7 +215,7 @@ h2 {
   color: #333333;
   font-size: 1.0em;
   opacity: 1.0;
-  background-color: #ffcccc;
+  background-color: #aaaaaa;
 }
 
 
@@ -268,7 +268,7 @@ h2 {
 
 @media screen and (max-width: 800px) {
     
-  .leftmenubar.responsive {position: relative;}
+  .leftmenubar.responsive {position: absolute;}
 
   .leftmenubar.responsive a {
     float: none;
