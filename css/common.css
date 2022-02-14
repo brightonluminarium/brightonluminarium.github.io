@@ -251,7 +251,7 @@ h2 {
 
 
 
-@media screen and (max-width: 560px) {  
+@media screen and (max-width: 600px) {  
   .decorimage {
     float: none;
     align: center;
@@ -273,5 +273,6 @@ h2 {
     float: none;
     display: block;
     opacity: 1.0;
+    height: 420px;
   }
 }
