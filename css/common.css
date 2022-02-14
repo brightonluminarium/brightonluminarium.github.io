@@ -171,7 +171,8 @@ h2 {
   top: 0px;
   text-align: left;
   line-height: 15px;
-  margin-left: -60px;
+  margin-left: -40px;
+  margin-top: -25px;
 }
 
 .menuitems {
