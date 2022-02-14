@@ -201,7 +201,7 @@ h2 {
 .leftmenubar {
   position: relative;
   background-color: #ffffff;
-  width: 180px;
+  width: 200px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -244,7 +244,7 @@ h2 {
   
   .content {
     margin-left: 5px;
-    margin-top: 70px;
+    margin-top: 75px;
   }
 
 }
