@@ -225,7 +225,7 @@ h2 {
 
 .menuicon {
   margin-left: 0px;
-  margin-top: -50px;
+  margin-top: 0px;
 }
   
   .leftmenubar a {
@@ -242,7 +242,7 @@ h2 {
   
   .content {
     margin-left: 5px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .frontpageformatfiddle {
