@@ -180,7 +180,6 @@ h2 {
 .menuicon {
   position: relative;
   width: 255px;
-  height: 50px;
   z-index: 9;
   top: 0px;
   text-align: left;
@@ -205,7 +204,8 @@ h2 {
 .leftmenubar {
   position: relative;
   background-color: #ffffff;
-  width: 200px;
+  width: 220px;
+  height: 50px;
   opacity:  1.0;
   z-index: 9;
   float: left;
