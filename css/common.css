@@ -177,7 +177,7 @@ h2 {
 
 .menuicon {
   position: relative;
-  width: 240px;
+  width: 255px;
   z-index: 9;
   top: 0px;
   text-align: left;
@@ -186,7 +186,7 @@ h2 {
 }
 
 .menuitems {
-  width: 160px;
+  width: 140px;
   background-color: #ffffff;
   opacity:  1.0;
   z-index: 9;
