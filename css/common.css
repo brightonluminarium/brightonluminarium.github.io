@@ -188,6 +188,9 @@ h2 {
   text-align: left;
   line-height: 15px;
   margin-left: -40px;
+  background-color: #ffffff;
+  color: #333333;
+  text-decoration: none;
 }
 
 .menuitems {
@@ -195,6 +198,7 @@ h2 {
 }
 
 .menuitems a {
+  line-height: 150%;
   background-color: #ffffff;
   color: #333333;
   text-decoration: none;
@@ -206,7 +210,7 @@ h2 {
 }
 
 .menuitems a:hover {
-  background-colour: #ffffbb;
+  background-colour: #ffff88;
   color: #000000;
 }
 
