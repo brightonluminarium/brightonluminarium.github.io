@@ -293,12 +293,12 @@ h2 {
 
 .menuimage .menuimagetext {
   position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  bottom: 0px; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 320px; /* Full width */
-  height: 320px;
+  width: 240px; /* Full width */
+  height: 40px;
   padding: 20px; /* Some padding */
 }
 
