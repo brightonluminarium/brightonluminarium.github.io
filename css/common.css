@@ -200,9 +200,13 @@ h2 {
   text-align: left;
 }
 
-.menuitems a:hover {
+.menuitems a, a:hover, a:link, a:vlink {
   background-color: #ddddff;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1.0em;
 }
 
 .leftmenubar {
