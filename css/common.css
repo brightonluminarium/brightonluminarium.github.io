@@ -291,8 +291,14 @@ h2 {
 }
 
 
+.menuimage {
+  position: relative;
+  width: 320px; 
+  height: 320px;
+}
+
 .menuimage .menuimagetext {
-  position: relative; /* Position the background text */
+  position: absolute; /* Position the background text */
   bottom: -40px; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
