@@ -201,7 +201,7 @@ h2 {
   text-align: left;
 }
 
-.menuitems a, a:hover, a:link, a:vlink {
+.menuitems a {
   background-color: #ddddff;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
@@ -292,5 +292,36 @@ h2 {
     opacity: 1.0;
   }
 }
+
+
+
+.menuimage {
+  position: relative;
+  height: 320px;
+  max-height: 320px;
+}
+
+.menuimage a, a:hover, a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0em;
+  color:#ffffff;
+  text-color: white;
+  text-decoration: none; 
+}
+
+.menuimage .menuimagetext {
+  position: absolute; /* Position the background text */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 300px; /* Full width */
+  height: 40px;
+  padding: 10px; /* Some padding */
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 20px;
+}
+
 
 
