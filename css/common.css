@@ -293,9 +293,7 @@ h2 {
 
 .menuimage {
   position: relative;
-  width: 320px; 
   height: 320px;
-  max-width: 320px; 
   max-height: 320px;
 }
 
@@ -318,6 +316,6 @@ h2 {
   padding: 10px; /* Some padding */
   margin-top: auto;
   margin-bottom: auto;
-  bottom: -80px;
+  bottom: 0px;
 }
 
