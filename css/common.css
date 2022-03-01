@@ -187,7 +187,7 @@ h2 {
   margin-left: -40px;
 }
 
-.menuitems {
+.menuitems a {
   width: 140px;
   background-color: #ffffff;
   color: #000000;
@@ -201,7 +201,7 @@ h2 {
   text-align: left;
 }
 
-.menuitems a {
+.menuitems a:hover {
   background-color: #ddddff;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
@@ -212,25 +212,12 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  background-color: #ffffff;
-  color:#000000;
   width: 230px;
   height: 50px;
   opacity:  1.0;
   z-index: 9;
   float: left;
 }
-
-.leftmenubar a, a:hover, a:link, a:vlink {
-  float: none;
-  display: block;
-  text-decoration: none;
-  padding: 5px 5px;
-  color: #333333;
-  font-size: 1.0em;
-  opacity: 1.0;
-}
-
 
 
 @media screen and (max-width: 800px) {
@@ -301,16 +288,15 @@ h2 {
   max-height: 320px;
 }
 
-.menuimage a, a:hover, a:visited {
+
+.menuimage .menuimagetext {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.0em;
   color:#ffffff;
   text-color: white;
   text-decoration: none; 
-}
-
-.menuimage .menuimagetext {
+  
   position: absolute; /* Position the background text */
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
