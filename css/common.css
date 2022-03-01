@@ -318,6 +318,6 @@ h2 {
   padding: 10px; /* Some padding */
   margin-top: auto;
   margin-bottom: auto;
-  bottom: 0px;
+  bottom: -80px;
 }
 
