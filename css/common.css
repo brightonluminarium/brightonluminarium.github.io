@@ -190,12 +190,13 @@ h2 {
   margin-left: -40px;
 }
 
-.menuitems a {
+.menuitems {
   width: 140px;
+}
+
+.menuitems a {
   background-color: #ffffff;
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-size: 1.0em;
   opacity:  1.0;
@@ -204,10 +205,6 @@ h2 {
   text-align: left;
 }
 
-.menuitems a:hover {
-  background-color: #ddddff;
-  color: #000000;
-}
 
 
 .leftmenubar {
