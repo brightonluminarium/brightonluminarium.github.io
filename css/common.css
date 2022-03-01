@@ -211,7 +211,7 @@ h2 {
   float: left;
 }
 
-.leftmenubar a {
+.leftmenubar a, a:hover, a:link, a:vlink {
   float: none;
   display: block;
   text-decoration: none;
@@ -222,7 +222,7 @@ h2 {
 }
 
 
-.leftmenubar a.active {
+.leftmenubar a:active {
   background-color: #ffffff;
   color: white;
 }
