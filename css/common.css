@@ -299,10 +299,13 @@ h2 {
   max-height: 320px;
 }
 
-.menuimage a {
+.menuimage a, a:hover, a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0em;
+  color:#ffffff;
   text-color: white;
   text-decoration: none; 
-  font-size: 2.0em;
 }
 
 .menuimage .menuimagetext {
@@ -314,6 +317,8 @@ h2 {
   width: 280px; /* Full width */
   height: 40px;
   padding: 20px; /* Some padding */
+  margin-top: auto;
+  margin-bottom: auto;
   
 }
 
