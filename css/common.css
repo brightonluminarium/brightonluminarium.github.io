@@ -62,7 +62,6 @@ h1, h2 {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
   margin-left: 20px;
-  text-align: left;
 }
 
 h1 {
@@ -186,7 +185,7 @@ h2 {
 
 .menuitems {
   width: 140px;
-  line-height: 150%;
+  line-height: 15px;
 }
 
 .menuitems a {
