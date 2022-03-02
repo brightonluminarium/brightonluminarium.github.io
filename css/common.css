@@ -204,8 +204,7 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  margin: 5px;
-  padding-left: 25px;
+  left: 15px;
 }
 
 .leftmenubar a {
