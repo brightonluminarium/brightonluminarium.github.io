@@ -201,7 +201,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 180px;
+  width: 200px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -227,6 +227,7 @@ h2 {
   .leftmenubar { 
     height: 40px;
     padding-left: 0px;
+    width: 220px;
    }
   
   .leftmenubar a {
@@ -246,7 +247,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    height: 320px;
+    \* height: 320px;
     line-height: 10%;
   }
   
@@ -260,7 +261,6 @@ h2 {
   
   .menuitems {
     visibility: hidden;
-    width: 220px;
   }
   
   h1, h2 {
