@@ -191,6 +191,7 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
+  left: 10px;
   height: 30px;
   width: 100%;
   padding-top: 10px;
