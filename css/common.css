@@ -236,6 +236,7 @@ h2 {
   .leftmenubar { 
     width: 275px;
     padding-left: 10px;
+    visibility: hidden;
    }
   
   .leftmenubar a {
@@ -279,6 +280,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
+    visibility: visible;
   }
   
   .leftmenubar.responsive a {
