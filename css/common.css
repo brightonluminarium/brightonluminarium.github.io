@@ -173,6 +173,7 @@ h2 {
   background-color: #ffffff;
   color: #333333;
   text-decoration: none;
+  z-index: -1;
 }
 
 .menuicon a {
@@ -246,6 +247,7 @@ h2 {
     display: block;
     opacity: 1.0;
     height: 320px;
+    line-height: 10%;
   }
   
   .leftmenubar.responsive a {
@@ -254,12 +256,11 @@ h2 {
     background-color: #ffffff;
     opacity: 1.0;
     visibility: visible;
-    line-height: 0%;
   }
   
   .menuitems {
     visibility: hidden;
-    width: 180px;
+    width: 220px;
   }
   
   h1, h2 {
