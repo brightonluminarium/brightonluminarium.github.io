@@ -181,7 +181,7 @@ h2 {
 }
 
 .menuitems {
-  width: 160px;
+  width: 180px;
   padding-top: 10px;
 }
 
@@ -226,7 +226,7 @@ h2 {
   
   .leftmenubar { 
     width: 260px;
-    height: 100px;
+    height: 40px;
     padding-left: 10px;
    }
   
