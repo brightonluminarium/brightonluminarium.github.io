@@ -199,8 +199,9 @@ h2 {
 
 
 .leftmenubar a:hover {
-  background-color: #ff3333;
+  background-color: #ccccff;
   color: #000000;
+  padding: 10px;
 }
 
 
