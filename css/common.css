@@ -287,11 +287,8 @@ h2 {
   .leftmenubar.responsive a {
     float: none;
     display: block;
+    background-color: #ffffff;
     opacity: 1.0;
-  }
-  
-  .menuitems {
-    line-height: 66%;
   }
 }
 
