@@ -205,7 +205,7 @@ h2 {
   z-index: 9;
   float: left;
   margin: 5px;
-  left: 10px;
+  padding-left: 25px;
 }
 
 .leftmenubar a {
@@ -247,6 +247,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
+    padding-left: 25px;
     \* height: 320px;
   }
   
