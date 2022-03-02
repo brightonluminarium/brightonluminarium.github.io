@@ -289,6 +289,10 @@ h2 {
     display: block;
     opacity: 1.0;
   }
+  
+  menuitems {
+    line-height: 100%;
+  }
 }
 
 
@@ -314,10 +318,11 @@ h2 {
   color: #f1f1f1; /* Grey text */
   width: 300px; /* Full width */
   height: 40px;
-  padding: 10px; /* Some padding */
+  padding: 20px; /* Some padding */
   margin-top: auto;
   margin-bottom: auto;
-  bottom: 20px;
+  bottom: 0px;
+  left: 0px;
 }
 
 
