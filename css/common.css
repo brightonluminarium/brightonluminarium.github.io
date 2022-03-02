@@ -297,6 +297,7 @@ h2 {
 .menuimage {
   position: relative;
   height: 320px;
+  align: left;
 }
 
 
