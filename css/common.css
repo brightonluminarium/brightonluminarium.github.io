@@ -170,7 +170,7 @@ h2 {
   z-index: 9;
   top: 0px;
   text-align: left;
-  margin-left: -40px;
+  margin-left: 0px;
   background-color: #ffffff;
   color: #333333;
   text-decoration: none;
@@ -199,7 +199,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 260px;
+  width: 200px;
   opacity:  1.0;
   z-index: 9;
   float: left;
