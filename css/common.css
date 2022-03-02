@@ -181,7 +181,7 @@ h2 {
 }
 
 .menuitems {
-  width: 140px;
+  width: 240px;
   background-color: #ffffff;
 }
 
@@ -210,7 +210,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 320px;
+  width: 260px;
   height: 50px;
   opacity:  1.0;
   z-index: 9;
