@@ -183,7 +183,7 @@ h2 {
 .menuitems {
   width: 140px;
   padding-top: 10px;
-  line-height: 125%;
+  line-height: 150%;
 }
 
 .menuitems a {
@@ -255,7 +255,7 @@ h2 {
     background-color: #ffffff;
     opacity: 1.0;
     visibility: visible;
-    line-height: 50%;
+    line-height: 0%;
   }
   
   .menuitems {
