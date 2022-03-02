@@ -7,6 +7,10 @@ html, body {
   color:#222222;
 }
 
+
+/*  Front page index.html, big image and title formatting - much of this is not even used...  */
+
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
@@ -22,54 +26,6 @@ html, body {
   color:#ffffff;
 }
 
-.tablecaption {
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.8em;
-  font-style: italic;
-  color:#555555;
-  text-align: center;
-  float: center;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 8px;
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-
-
-.BLimgs {
-  border: 4px solid #cccccc;
-  margin: 20px 20px 20px 100px;
-  text-align: center;
-  float: center;
-  margin: auto;
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-.decorimage {
-  float: right; 
-}
-
-
-h1, h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-    font-size: 3.0em;
-}
-
-h2 {
-  font-size: 2.0em;
-  margin-top: -10px;
-  margin-bottom: 10px;
- }
-
-
 .introvid {
   opacity:75%;
   /* width: 100vw; */
@@ -78,7 +34,6 @@ h2 {
   object-fit: cover;
   padding: 0px;
 }
-
 
 .title_container {
   background-color: #000;
@@ -101,7 +56,6 @@ h2 {
   position:absolute;
 }
 
-
 .image_overlay {
   opacity:40%;
   width: auto;
@@ -111,13 +65,10 @@ h2 {
   padding: 0px;
 }
 
-
-
 .wrapper {
     display: flex;
     width: 100%;
 }
-
 
 .social {
   height: 40px;
@@ -129,8 +80,6 @@ h2 {
 .social:hover {
   opacity: 1.0;
 }
-
-
 
 .photo:hover{
   color: #424242;
@@ -148,6 +97,52 @@ h2 {
 
 
 
+/* General formatting in pages */
+
+.tablecaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  color:#555555;
+  text-align: center;
+  float: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 8px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.BLimgs {
+  border: 4px solid #cccccc;
+  margin: 20px 20px 20px 100px;
+  text-align: center;
+  float: center;
+  margin: auto;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.decorimage {
+  float: right; 
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3.0em;
+}
+
+h2 {
+  font-size: 2.0em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+ }
+
 .content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 165px;
@@ -163,7 +158,9 @@ h2 {
 }
 
 
+/* top left menu bar formatting...  */
 
+/* the leftmenubar contains the menuicon at the top, followed by the menuitems */
 
 .menuicon {
   position: relative;
@@ -215,19 +212,20 @@ h2 {
 
 }
 
-
 .leftmenubar a:hover {
   color: #000000;
   font-weight: bold;
 }
 
 
+/* If the screen is narrow, either on a computer of a phone, then the following formatting tweaks it accordingly */
+
 @media screen and (max-width: 800px) {
   
   .leftmenubar { 
     height: 40px;
     padding-left: 0px;
-    width: 220px;
+    width: 260px;
    }
   
   .leftmenubar a {
@@ -279,7 +277,7 @@ h2 {
 
 }
 
-
+/* Also, if the page is narrow, change the front index.html image accordinly */
 
 @media screen and (max-width: 600px) {  
   .decorimage {
@@ -292,7 +290,7 @@ h2 {
 }
 
 
-
+/* This is for the big menu images in the front index.html page */
 
 .menuimage {
   position: relative;
@@ -304,7 +302,6 @@ h2 {
   margin-right: 10px;
   margin-left: 10px;
 }
-
 
 .menuimagetext {
   font-family: Arial, Helvetica, sans-serif;
