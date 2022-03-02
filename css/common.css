@@ -173,7 +173,6 @@ h2 {
   background-color: #ffffff;
   color: #333333;
   text-decoration: none;
-  z-index: -1;
   width: 220px;
 }
 
@@ -257,7 +256,6 @@ h2 {
     display: block;
     background-color: #ffffff;
     opacity: 1.0;
-    visibility: visible;
   }
   
   
@@ -330,7 +328,7 @@ h2 {
 
 .menuimagetext h3 {
   padding-top: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .menuimagetext a {
