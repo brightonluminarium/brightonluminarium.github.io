@@ -180,7 +180,7 @@ h2 {
 .menuitems {
   width: 160px;
   padding-top: 10px;
-  line-height: 150%;
+  line-height: 200%;
 }
 
 .menuitems a {
@@ -246,7 +246,6 @@ h2 {
     display: block;
     opacity: 1.0;
     \* height: 320px;
-    line-height: 10%;
   }
   
   .leftmenubar.responsive a {
