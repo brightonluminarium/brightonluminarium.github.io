@@ -272,7 +272,7 @@ h2 {
   
   .menuitems {
     display: inline-block;
-    line-height: 0.1em;
+    line-height: 0.01em;
   }
   
   .content {
