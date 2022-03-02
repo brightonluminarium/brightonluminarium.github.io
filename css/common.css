@@ -182,7 +182,7 @@ h2 {
 
 .menuitems {
   width: 140px;
-  line-height: 150%;
+  background-color: #ffffff;
 }
 
 .menuitems a {
@@ -194,6 +194,12 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
+}
+
+
+.menuitems a:hover {
+  background-colour: #ffff00;
+  color: #000000;
 }
 
 .leftmenubar a:hover {
