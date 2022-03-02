@@ -194,11 +194,13 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
+  width: 120px;
+  height: 20px;
 }
 
 
 .menuitems a:hover {
-  background-color: #ffffbb;
+  background-color: #bbbbff;
   color: #000000;
 }
 
