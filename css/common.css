@@ -1,3 +1,4 @@
+
 html, body {
   margin:0;
   padding:0;
@@ -41,13 +42,11 @@ html, body {
 .BLimgs {
   border: 4px solid #cccccc;
   margin: 20px 20px 20px 100px;
-  
   text-align: center;
   float: center;
   margin: auto;
   margin-left: auto; 
   margin-right: auto;
-  
 }
 
 .decorimage {
@@ -55,34 +54,20 @@ html, body {
 }
 
 
-h1 {
+h1, h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.0em;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  margin-left: 20px;
-  text-align: left;
 }
 
+h1 {
+    font-size: 3.0em;
+}
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Montserrat', sans-serif;
   font-size: 2.0em;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  margin-left: 10px;
-  text-align: left;
-}
-
-.sidenav {
-  position: sticky;
-  position: -webkit-sticky;
-  top:0;
-  font-size: 1em;
-  font-weight: bold;
-}
+  margin-top: -10px;
+  margin-bottom: 10px;
+ }
 
 
 .introvid {
@@ -177,88 +162,120 @@ h2 {
   margin-top: 0px;
 }
 
+
+
+
 .menuicon {
   position: relative;
-  z-index: 9;
   top: 0px;
   text-align: left;
-  line-height: 15px;
-  margin-left: -40px;
+  margin-left: -42px;
+  background-color: #ffffff;
+  color: #333333;
+  text-decoration: none;
+  width: 220px;
+}
+
+.menuicon a {
+  text-decoration: none;
 }
 
 .menuitems {
-  width: 140px;
-  background-color: #ffffff;
+  width: 160px;
+  padding-top: 10px;
+  line-height: 150%;
+}
+
+.menuitems a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.0em;
   opacity:  1.0;
   z-index: 9;
   align: left;
   text-align: left;
+  height: 30px;
+  padding-top: 10px;
 }
 
-.menuitems a:hover {
-  background-color: #ddddff;
-  color: black;
-}
 
 .leftmenubar {
   position: relative;
-  background-color: #ffffff;
-  width: 230px;
-  height: 50px;
+  width: 200px;
   opacity:  1.0;
   z-index: 9;
   float: left;
+  margin: 5px;
+  left: 10px;
 }
 
 .leftmenubar a {
-  float: none;
-  display: block;
-  text-decoration: none;
-  padding: 5px 5px;
-  color: #333333;
-  font-size: 1.0em;
-  opacity: 1.0;
+  color: #000000;
+  text-decoration: none
+
 }
 
 
-.leftmenubar a.active {
-  background-color: #ffffff;
-  color: white;
+.leftmenubar a:hover {
+  color: #000000;
+  font-weight: bold;
 }
 
 
 @media screen and (max-width: 800px) {
   
-
-  
-  h1, h2 {
-    margin-right: 40px;
-    text-align: center;
-}
-  
-.menuicon {
-  margin-left: 0px;
-  margin-top: -10px;
-}
-  
-  .leftmenubar { width: 260px; }
+  .leftmenubar { 
+    height: 40px;
+    padding-left: 0px;
+    width: 220px;
+   }
   
   .leftmenubar a {
     display: none;
     float: none;
     opacity: 1.0;
+    background-color: #ffffff;
   }
   
   .leftmenubar a.icon {
     display: block;
-    top: 0px;
     text-color: black;
+  }
+  
+  .leftmenubar.responsive {
+    position: relative;
+    background-color: #ffffff;
+    display: block;
+    opacity: 1.0;
+    \* height: 320px;
+    line-height: 10%;
+  }
+  
+  .leftmenubar.responsive a {
+    float: none;
+    display: block;
+    background-color: #ffffff;
+    opacity: 1.0;
+  }
+  
+  
+  h1, h2 {
+    margin-right: 30px;
+    text-align: center;
+}
+  
+  h3 {margin-top: 0px; }
+  
+.menuicon {
+  margin-left: 0px;
+  margin-top: -10px;
   }
   
   .content {
     margin-left: 5px;
     margin-top: 15px;
   }
+  
 
 }
 
@@ -276,23 +293,6 @@ h2 {
 
 
 
-@media screen and (max-width: 800px) {
-    
-  .leftmenubar.responsive {
-     position: relative;
-  }
-  
-  .leftmenubar.responsive a {
-    float: none;
-    display: block;
-    opacity: 1.0;
-  }
-}
-
-
-
-
-\* This is for the big menu images in the front index.html page *\
 
 .menuimage {
   position: relative;
@@ -304,6 +304,7 @@ h2 {
   margin-right: 10px;
   margin-left: 10px;
 }
+
 
 .menuimagetext {
   font-family: Arial, Helvetica, sans-serif;
