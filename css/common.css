@@ -59,9 +59,6 @@ html, body {
 h1, h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
 }
 
 h1 {
@@ -300,7 +297,6 @@ h2 {
 .menuimage {
   position: relative;
   height: 320px;
-  max-height: 320px;
 }
 
 
@@ -316,13 +312,18 @@ h2 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 300px; /* Full width */
+  width: 290px; /* Full width */
   height: 40px;
   padding: 20px; /* Some padding */
-  margin-top: auto;
-  margin-bottom: auto;
-  bottom: 0px;
+  bottom: 20px;
   left: 0px;
+}
+
+
+.menuimagetext a {
+  color:#ffffff;
+  text-color: white;
+  text-decoration: none; 
 }
 
 
