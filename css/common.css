@@ -197,27 +197,26 @@ h2 {
 }
 
 
-
-.leftmenubar a:hover {
-  color: #000000;
-  font-size: 1.2em;
-  background-color: #ccffcc;
-}
-
-
 .leftmenubar {
   position: relative;
   width: 260px;
-  height: 50px;
   opacity:  1.0;
   z-index: 9;
   float: left;
+  margin: 5px;
+  left: 10px;
 }
 
 .leftmenubar a {
   color: #000000;
   text-decoration: none
-  margin: 10px;
+
+}
+
+
+.leftmenubar a:hover {
+  color: #000000;
+  font-weight: bold;
 }
 
 
@@ -237,9 +236,7 @@ h2 {
   .leftmenubar { 
     width: 275px;
     padding-left: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
+   }
   
   .leftmenubar a {
     display: none;
