@@ -198,10 +198,6 @@ h2 {
 }
 
 
-.menuitems a:hover {
-  background-color: #bbbbff;
-  color: #000000;
-}
 
 .leftmenubar a:hover {
   background-color: #ffffbb;
@@ -327,7 +323,7 @@ h2 {
 
   width: 300px;
   height: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   bottom: 0px;
   padding-left: 20px;
   left: 0px;
