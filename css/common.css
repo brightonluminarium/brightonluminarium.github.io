@@ -199,7 +199,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 200px;
+  width: 260px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -236,7 +236,6 @@ h2 {
   .leftmenubar { 
     width: 275px;
     padding-left: 10px;
-    visibility: hidden;
    }
   
   .leftmenubar a {
@@ -244,6 +243,7 @@ h2 {
     float: none;
     opacity: 1.0;
     background-color: #ffffff;
+    visibility: hidden;
   }
   
   .leftmenubar a.icon {
@@ -256,6 +256,7 @@ h2 {
     margin-left: 5px;
     margin-top: 15px;
   }
+  
 
 }
 
@@ -280,7 +281,6 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    visibility: visible;
   }
   
   .leftmenubar.responsive a {
@@ -288,6 +288,7 @@ h2 {
     display: block;
     background-color: #ffffff;
     opacity: 1.0;
+    visibility: hidden;
   }
 }
 
