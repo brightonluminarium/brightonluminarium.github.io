@@ -196,7 +196,7 @@ h2 {
   text-align: left;
 }
 
-.menuitems a:hover {
+.leftmenubar a:hover {
   background-colour: #ffff00;
   color: #000000;
 }
@@ -315,8 +315,8 @@ h2 {
   color: #f1f1f1; /* Grey text */
   width: 280px; /* Full width */
   height: 40px;
-  padding-bottom: 20px; /* Some padding */
-  bottom: 0px;
+  padding-bottom: 0px; /* Some padding */
+  bottom: 20px;
   left: 0px;
 }
 
