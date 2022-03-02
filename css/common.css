@@ -215,7 +215,6 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  background-color: #ffffff;
   margin-left: 10px;
 }
 
@@ -284,7 +283,6 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    padding: 20px;
   }
   
   .leftmenubar.responsive a {
@@ -321,11 +319,12 @@ h2 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 
-  width: 320px; /* Full width */
-  height: 80px;
-  padding-bottom: 0px; /* Some padding */
+  width: 320px;
+  height: 50px;
+  padding-bottom: 0px;
   bottom: 0px;
-  left: 20px;
+  padding-left: 0px;
+  left: 0px;
 }
 
 
