@@ -197,7 +197,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 200px;
+  width: 220px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -232,7 +232,7 @@ h2 {
   
   
   .leftmenubar { 
-    width: 275px;
+    width: 260px;
     padding-left: 10px;
    }
   
