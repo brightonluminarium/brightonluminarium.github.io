@@ -199,7 +199,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 220px;
+  width: 230px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -221,17 +221,6 @@ h2 {
 
 
 @media screen and (max-width: 800px) {
- 
-  h1, h2 {
-    margin-right: 30px;
-    text-align: center;
-}
-  
-.menuicon {
-  margin-left: 0px;
-  margin-top: -10px;
-  }
-  
   
   .leftmenubar { 
     width: 260px;
@@ -245,14 +234,40 @@ h2 {
     background-color: #ffffff;
   }
   
-  .leftmenubar .menuitems {
-    visibility: hidden;
-  }
-  
   .leftmenubar a.icon {
     display: block;
     top: 0px;
     text-color: black;
+  }
+  
+  .leftmenubar.responsive {
+    position: relative;
+    background-color: #ffffff;
+    display: block;
+    opacity: 1.0;
+  }
+  
+  .leftmenubar.responsive a {
+    float: none;
+    display: block;
+    background-color: #ffffff;
+    opacity: 1.0;
+    visibility: visible;
+  }
+  
+  .menuitems {
+    width: 140px;
+    visibility: hidden;
+  }
+  
+  h1, h2 {
+    margin-right: 30px;
+    text-align: center;
+}
+  
+.menuicon {
+  margin-left: 0px;
+  margin-top: -10px;
   }
   
   .content {
@@ -275,25 +290,6 @@ h2 {
   }
 }
 
-
-
-@media screen and (max-width: 800px) {
-    
-  .leftmenubar.responsive {
-    position: relative;
-    background-color: #ffffff;
-    display: block;
-    opacity: 1.0;
-  }
-  
-  .leftmenubar.responsive a {
-    float: none;
-    display: block;
-    background-color: #ffffff;
-    opacity: 1.0;
-    visibility: visible;
-  }
-}
 
 
 
@@ -323,8 +319,8 @@ h2 {
 
   width: 300px;
   height: 30px;
-  padding-bottom: 0px;
-  bottom: 0px;
+  padding-bottom: 30px;
+  bottom: 10px;
   padding-left: 20px;
   left: 0px;
 }
