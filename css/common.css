@@ -176,6 +176,7 @@ h2 {
   color: #333333;
   text-decoration: none;
   width: 220px;
+  z-index:9;
 }
 
 .menuicon a {
@@ -186,6 +187,7 @@ h2 {
 .menuitems {
   width: 160px;
   padding-top: 10px;
+  z-index: 9;
   line-height: 150%;
 }
 
@@ -213,9 +215,14 @@ h2 {
 }
 
 .leftmenubar a {
-  color: #000000;
+  float: none;
+  display: block;
   text-decoration: none;
-  
+  padding: 5px 5px;
+  color: #333333;
+  font-size: 1.0em;
+  opacity: 1.0;
+
 }
 
 .leftmenubar a:hover {
@@ -229,31 +236,46 @@ h2 {
 
 @media screen and (max-width: 800px) {
   
+.menuicon {
+  margin-left: 0px;
+  margin-top: -10px;
+}
   
-  .leftmenubar.responsive {
-    position: relative;
-    background-color: #ffffff;
-    display: block;
-    opacity: 1.0;
-    \* height: 320px;
-    line-height: 10%;
-  }
+  .leftmenubar { width: 260px; }
   
-  .leftmenubar.responsive a {
+  .leftmenubar a {
+    display: none;
     float: none;
-    display: block;
-    background-color: #ffffff;
     opacity: 1.0;
   }
   
-  
-  h3 {margin-top: 0px; }
+  .leftmenubar a.icon {
+    display: block;
+    top: 0px;
+    text-color: black;
+  }
   
   .content {
     margin-left: 5px;
     margin-top: 15px;
   }
+    
+  .content {
+    margin-left: 5px;
+    margin-top: 15px;
+  }
   
+  
+  .leftmenubar.responsive {
+     position: relative;
+  }
+  
+  .leftmenubar.responsive a {
+    float: none;
+    display: block;
+    opacity: 1.0;
+  }
+
 
 }
 
