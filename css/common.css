@@ -210,7 +210,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 275px;
+  width: 320px;
   height: 50px;
   opacity:  1.0;
   z-index: 9;
@@ -238,10 +238,9 @@ h2 {
 }
   
   .leftmenubar { 
-    width: 260px;
+    width: 275px;
     margin-left: 10px;
     margin-top: 10px;
-    background-color: #ffffff;
   }
   
   .leftmenubar a {
@@ -285,6 +284,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
+    padding: 20px;
   }
   
   .leftmenubar.responsive a {
@@ -294,7 +294,7 @@ h2 {
   }
   
   .menuitems {
-    line-height: 50%;
+    line-height: 66%;
   }
 }
 
@@ -303,7 +303,9 @@ h2 {
 .menuimage {
   position: relative;
   height: 320px;
+  width: 320px;
   align: left;
+  text-align: left;
 }
 
 
@@ -322,8 +324,8 @@ h2 {
   width: 320px; /* Full width */
   height: 80px;
   padding-bottom: 0px; /* Some padding */
-  bottom: -20px;
-  left: 0px;
+  bottom: 0px;
+  left: 20px;
 }
 
 
