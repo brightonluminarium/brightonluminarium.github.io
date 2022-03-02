@@ -288,7 +288,7 @@ h2 {
   }
   
   menuitems {
-    line-height: 100%;
+    line-height: 0%;
   }
 }
 
@@ -312,10 +312,10 @@ h2 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 290px; /* Full width */
+  width: 280px; /* Full width */
   height: 40px;
-  padding: 20px; /* Some padding */
-  bottom: 20px;
+  padding-bottom: 20px; /* Some padding */
+  bottom: 0px;
   left: 0px;
 }
 
