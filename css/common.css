@@ -182,6 +182,7 @@ h2 {
 
 .menuitems {
   width: 160px;
+  padding-top: 10px;
 }
 
 .menuitems a {
@@ -200,7 +201,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 230px;
+  width: 240px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -225,6 +226,7 @@ h2 {
   
   .leftmenubar { 
     width: 260px;
+    height: 100px;
     padding-left: 10px;
    }
   
@@ -246,6 +248,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
+    height: 320px;
   }
   
   .leftmenubar.responsive a {
