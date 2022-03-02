@@ -199,8 +199,9 @@ h2 {
 
 
 .leftmenubar a:hover {
-  background-color: #ccccff;
   color: #000000;
+  font-size: 1.2em;
+  background-color: #ccffcc;
 }
 
 
@@ -211,12 +212,12 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  padding: 10px;
 }
 
 .leftmenubar a {
   color: #000000;
-  test-decoration: none;
+  text-decoration: none
+  margin: 10px;
 }
 
 
