@@ -241,6 +241,9 @@ h2 {
     float: none;
     opacity: 1.0;
     background-color: #ffffff;
+  }
+  
+  .leftmenubar .menuitems {
     visibility: hidden;
   }
   
@@ -286,7 +289,7 @@ h2 {
     display: block;
     background-color: #ffffff;
     opacity: 1.0;
-    visibility: hidden;
+    visibility: visible;
   }
 }
 
