@@ -269,6 +269,11 @@ h2 {
   margin-top: -10px;
   }
   
+  .menuitems {
+    display: block;
+    line-height: 0px;
+  }
+  
   .content {
     margin-left: 5px;
     margin-top: 15px;
