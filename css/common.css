@@ -266,6 +266,8 @@ h2 {
     text-align: center;
 }
   
+  h3 {margin-top: 0px; }
+  
 .menuicon {
   margin-left: 0px;
   margin-top: -10px;
@@ -320,8 +322,8 @@ h2 {
 
   width: 300px;
   height: 30px;
-  padding-bottom: 30px;
-  bottom: 10px;
+  padding-bottom: 20px;
+  bottom: 30px;
   padding-left: 20px;
   left: 0px;
 }
