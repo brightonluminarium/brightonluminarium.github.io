@@ -240,6 +240,7 @@ h2 {
     width: 275px;
     margin-left: 10px;
     margin-top: 10px;
+    visibility: hidden;
   }
   
   .leftmenubar a {
@@ -322,9 +323,9 @@ h2 {
 
   width: 320px;
   height: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   bottom: 0px;
-  padding-left: 0px;
+  padding-left: 20px;
   left: 0px;
 }
 
