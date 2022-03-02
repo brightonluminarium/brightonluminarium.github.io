@@ -297,6 +297,7 @@ h2 {
   
   .menuitems {
     line-height: 66%;
+    visibility: visible;
   }
 }
 
@@ -326,8 +327,8 @@ h2 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 
-  width: 320px;
-  height: 50px;
+  width: 300px;
+  height: 40px;
   padding-bottom: 40px;
   bottom: 0px;
   padding-left: 20px;
