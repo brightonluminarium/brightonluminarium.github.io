@@ -177,7 +177,6 @@ h2 {
 }
 
 .menuitems table {
-  background-color: #ffff66;
   margin-top: 15px;
   width: 180px;
   height: 320px;
@@ -189,7 +188,8 @@ h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 20px;
-  background-color: #ff66ff;
+  background-color: #bbffff;
+  border: 0px;
 }
 
 .menuitems a {
