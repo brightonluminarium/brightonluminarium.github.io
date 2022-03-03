@@ -177,7 +177,7 @@ h2 {
   text-decoration: none;
 }
 
-.menuitems {
+.menuitems table, td {
   width: 180px;
   padding-left: 20px;
   background-color: #ffffff;
@@ -242,7 +242,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    padding-left: 25px;
+    \* padding-left: 25px;
     \* height: 320px;
   }
   
@@ -263,14 +263,8 @@ h2 {
   
 .menuicon {
   margin-left: 0px;
-  margin-top: -10px;
   }
   
-  .menuitems {
-    display: inline-block;
-    line-height: 0.01em;
-    background-color: #ffffff;
-  }
   
   .content {
     margin-left: 5px;
