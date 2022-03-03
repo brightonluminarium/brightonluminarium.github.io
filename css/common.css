@@ -166,8 +166,7 @@ h2 {
   position: relative;
   top: 0px;
   text-align: left;
-  margin-left: -42px;
-  background-color: #ffffff;
+  margin-left: -40px;
   color: #333333;
   text-decoration: none;
   width: 220px;
@@ -242,14 +241,11 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    \* padding-left: 25px;
-    \* height: 320px;
   }
   
   .leftmenubar.responsive a {
     float: none;
     display: block;
-    background-color: #ffffff;
     opacity: 1.0;
   }
   
