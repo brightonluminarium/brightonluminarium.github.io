@@ -181,6 +181,7 @@ h2 {
   width: 180px;
   height: 320px;
   z-index: 9;
+  border-spacing: 0px;
 }
 
 .menuitems table, tbody, td, tr, th {
