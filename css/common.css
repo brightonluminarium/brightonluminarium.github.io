@@ -179,6 +179,8 @@ h2 {
 .menuitems table {
   background-color: #ffffff;
   margin-top: 15px;
+  width: 180px;
+  height: 320px;
 }
 
 .menuitems table, td, tr, th {
