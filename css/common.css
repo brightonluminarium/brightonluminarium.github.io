@@ -176,7 +176,7 @@ h2 {
   text-decoration: none;
 }
 
-.menuitems table, td {
+.menuitems table, td, tr, th {
   width: 180px;
   padding-left: 20px;
   background-color: #ffffff;
