@@ -180,6 +180,7 @@ h2 {
 .menuitems {
   width: 100%;
   padding-top: 10px;
+  padding-left: 45px;
   line-height: 200%;
 }
 
@@ -191,7 +192,6 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
-  left: 10px;
   height: 30px;
   width: 100%;
   padding-top: 10px;
