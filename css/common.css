@@ -178,6 +178,8 @@ h2 {
 
 .menuitems table, td, tr, th {
   width: 180px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 20px;
   background-color: #ffffff;
 }
