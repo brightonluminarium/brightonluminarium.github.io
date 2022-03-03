@@ -178,12 +178,9 @@ h2 {
 }
 
 .menuitems {
-  width: 100%;
-  padding-top: 10px;
-  padding-left: 5px;
-  left: 20px;
-  margin-left: 20px;
-  line-height: 200%;
+  width: 180px;
+  padding-left: 20px;
+  background-color: #ffffff;
 }
 
 .menuitems a {
@@ -194,9 +191,7 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
-  height: 30px;
-  width: 100%;
-  padding-top: 10px;
+  width: 180px;
 }
 
 
