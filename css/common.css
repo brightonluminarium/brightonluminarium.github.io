@@ -184,12 +184,19 @@ h2 {
   border-spacing: 0px;
 }
 
-.menuitems table, tbody, td, tr, th {
+.menuitems tbody {
+  width: 180px;
+  height: 320px;
+  z-index: 9;
+  border-spacing: 0px;
+  background-color: #ffffff;
+}
+
+.menuitems td, tr, th {
   width: 180px;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 20px;
-  background-color: #bbffff;
   border: 0px;
 }
 
