@@ -180,7 +180,9 @@ h2 {
 .menuitems {
   width: 100%;
   padding-top: 10px;
-  padding-left: 45px;
+  padding-left: 5px;
+  left: 20px;
+  margin-left: 20px;
   line-height: 200%;
 }
 
@@ -272,6 +274,7 @@ h2 {
   .menuitems {
     display: inline-block;
     line-height: 0.01em;
+    background-color: #ffffff;
   }
   
   .content {
