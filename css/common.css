@@ -151,6 +151,7 @@ h2 {
   text-align: left;
   align: left;
   margin-top: 0px;
+  z-index: 1;
 }
 
 .frontpageformatfiddle {
@@ -266,7 +267,7 @@ h2 {
   h1, h2 {
     margin-right: 30px;
     text-align: center;
-    margin-top: -5px;
+    margin-top: 0px;
 }
   
   h3 {margin-top: 0px; }
@@ -278,7 +279,7 @@ h2 {
   
   .content {
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
   
 
