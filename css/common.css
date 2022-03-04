@@ -181,12 +181,11 @@ h2 {
 
 .menuitems {
   background-color: #ffffff;
-  width: 150px;
 }
 
 .menuitems table, tbody, tr, td {
-  width: 150px;
   border-spacing: 0px;
+  padding: 0px;
 }
 
 .menuitems a {
@@ -202,7 +201,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 230px;
+  width: 234px;
   opacity:  1.0;
   z-index: 9;
   float: left;
