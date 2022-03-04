@@ -211,7 +211,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 200px;
+  width: 180px;
   opacity:  1.0;
   z-index: 9;
   float: left;
@@ -235,7 +235,6 @@ h2 {
   .leftmenubar { 
     height: 40px;
     padding-left: 0px;
-    width: 230px;
    }
   
   .leftmenubar a {
@@ -254,7 +253,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    height: 320px;
+    height: 180px;
   }
   
   .leftmenubar.responsive a {
