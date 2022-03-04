@@ -160,6 +160,8 @@ h2 {
 }
 
 
+
+
 /* top left menu bar formatting...  */
 
 /* the leftmenubar contains the menuicon at the top, followed by the menuitems */
@@ -171,7 +173,7 @@ h2 {
   margin-left: -40px;
   color: #333333;
   text-decoration: none;
-  width: 240px;
+  width: 250px;
 }
 
 .menuicon a {
@@ -271,6 +273,8 @@ h2 {
   
 
 }
+
+
 
 /* Also, if the page is narrow, change the front index.html image accordinly */
 
