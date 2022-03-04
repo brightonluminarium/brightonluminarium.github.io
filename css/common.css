@@ -168,7 +168,7 @@ h2 {
   position: relative;
   top: 0px;
   text-align: left;
-  margin-left: -36px;
+  margin-left: -40px;
   color: #333333;
   text-decoration: none;
   width: 240px;
@@ -183,7 +183,7 @@ h2 {
 }
 
 .menuitems table {
-  width: 200px;
+  width: 210px;
 }
 
 .menuitems a {
@@ -199,11 +199,11 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 200px;
+  width: 210px;
   opacity:  1.0;
   z-index: 9;
   float: left;
-  height: 340px;
+  height: 333px;
   background-color: #ffffff;
 }
 
