@@ -180,11 +180,10 @@ h2 {
 
 .menuitems {
   background-color: #ffffff;
-  width: 180px;
 }
 
 .menuitems table {
-  width: 100%;
+  width: 210px;
 }
 
 .menuitems a {
