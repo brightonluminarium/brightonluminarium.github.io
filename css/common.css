@@ -225,7 +225,6 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .leftmenubar { 
-    height: 20px;
   /* this causes the HR to appear...  height: 20px;  */
     padding-left: 0px;
    }
