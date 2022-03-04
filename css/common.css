@@ -172,9 +172,7 @@ h2 {
   text-align: left;
   margin-left: -40px;
   color: #333333;
-  text-decoration: none;
-  /* this causes the HR to appear...  height: 20px;  */
-  
+  text-decoration: none;  
 }
 
 .menuicon a {
@@ -187,7 +185,7 @@ h2 {
 }
 
 .menuitems table {
-  width: 100%;
+  width: 150px;
 }
 
 .menuitems a {
@@ -227,7 +225,8 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .leftmenubar { 
-    height: 30px;
+    height: 20px;
+  /* this causes the HR to appear...  height: 20px;  */
     padding-left: 0px;
    }
   
