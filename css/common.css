@@ -177,6 +177,10 @@ h2 {
   text-decoration: none;
 }
 
+.menuitems {
+  background-color: #ffffff;
+}
+
 .menuitems table {
   margin-top: 15px;
   width: 180px;
