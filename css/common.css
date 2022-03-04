@@ -222,6 +222,7 @@ h2 {
   .leftmenubar { 
     padding-left: 0px;
     z-index: 0;
+    height: 40px;
    }
   
   .leftmenubar a {
