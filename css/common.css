@@ -182,14 +182,12 @@ h2 {
   height: 320px;
   z-index: 9;
   border-spacing: 0px;
-  background-color: #ffffff;
 }
 
 .menuitems tbody {
   border-spacing: 0px;
   border: 0px;
   padding: 0px;
-  background-color: #ffffff;
 }
 
 .menuitems td, tr, th {
@@ -216,13 +214,11 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  background-color: #ffffff;
 }
 
 .leftmenubar a {
-  color: #000000;
+  color: #333333;
   text-decoration: none
-
 }
 
 .leftmenubar a:hover {
@@ -257,6 +253,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
+    height: 440px;
   }
   
   .leftmenubar.responsive a {
