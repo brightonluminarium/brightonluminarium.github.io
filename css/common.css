@@ -249,7 +249,7 @@ h2 {
   }
   
   
- .menuitems tbody {
+ .menuitems table, tbody, tr, td {
    /* table, tbody, tr, td {  border-spacing: 0px;  padding: 0px; }  */
    border-spacing: 0px;
    padding: 0px; 
