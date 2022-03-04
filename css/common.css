@@ -182,7 +182,7 @@ h2 {
 
 .menuitems {
   background-color: #ffffff;
-  width: 160px;
+/*  this makes hr in left menu appear all the time... odd:        width: 160px; */
 }
 
 .menuitems a {
