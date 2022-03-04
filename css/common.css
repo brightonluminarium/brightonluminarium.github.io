@@ -223,6 +223,7 @@ h2 {
   
   .leftmenubar { 
     padding-left: 0px;
+    z-index: 0;
    }
   
   .leftmenubar a {
@@ -246,6 +247,7 @@ h2 {
     float: none;
     display: block;
     opacity: 1.0;
+    z-index: 9;
   }
   
   
