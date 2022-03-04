@@ -184,8 +184,9 @@ h2 {
   width: 150px;
 }
 
-.menuitems table {
+.menuitems table, tbody, tr, td {
   width: 150px;
+  border-spacing: 0px;
 }
 
 .menuitems a {
@@ -201,11 +202,10 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 230px;
+  width: 160px;
   opacity:  1.0;
   z-index: 9;
   float: left;
- \*  height: 333px; *\
   background-color: #ffffff;
 }
 
