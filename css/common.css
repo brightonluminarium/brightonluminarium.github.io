@@ -173,7 +173,8 @@ h2 {
   margin-left: -40px;
   color: #333333;
   text-decoration: none;
-  height: 20px;
+  /* this causes the HR to appear...  height: 20px;  */
+  
 }
 
 .menuicon a {
