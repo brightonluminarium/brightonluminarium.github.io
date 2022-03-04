@@ -203,6 +203,7 @@ h2 {
   z-index: 9;
   float: left;
   background-color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .leftmenubar a {
@@ -228,6 +229,7 @@ h2 {
     display: none;
     float: none;
     opacity: 1.0;
+    margin-bottom: -30px;
   }
   
   .leftmenubar a.icon {
@@ -239,6 +241,7 @@ h2 {
     position: relative;
     background-color: #ffffff;
     opacity: 1.0;
+    margin-bottom: 0px;
   }
   
   .leftmenubar.responsive a {
