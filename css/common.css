@@ -205,7 +205,7 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  height: 375px;
+ \*  height: 333px; *\
   background-color: #ffffff;
 }
 
@@ -225,7 +225,6 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .leftmenubar { 
-  /* this causes the HR to appear...  height: 20px;  */
     padding-left: 0px;
    }
   
