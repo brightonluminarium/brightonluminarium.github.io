@@ -180,7 +180,6 @@ h2 {
 .menuitems table {
   margin-top: 15px;
   width: 180px;
-  height: 320px;
   z-index: 9;
   border-spacing: 0px;
 }
@@ -216,6 +215,7 @@ h2 {
   z-index: 9;
   float: left;
   height: 320px;
+  background-color: #ffffff;
 }
 
 .leftmenubar a {
