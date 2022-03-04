@@ -185,7 +185,7 @@ h2 {
 }
 
 .menuitems table {
-  width: 210px;
+  width: 230px;
 }
 
 .menuitems a {
@@ -201,7 +201,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 210px;
+  width: 230px;
   opacity:  1.0;
   z-index: 9;
   float: left;
