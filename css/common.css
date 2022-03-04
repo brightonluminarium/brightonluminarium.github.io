@@ -196,7 +196,6 @@ h2 {
   border-spacing: 0px;
   border: 0px;
   padding: 0px;
-  height: 30px;
   background-color: #ffffff;
 }
 
@@ -208,7 +207,6 @@ h2 {
   z-index: 9;
   align: left;
   text-align: left;
-  width: 180px;
 }
 
 
