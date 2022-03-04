@@ -173,7 +173,6 @@ h2 {
   margin-left: -40px;
   color: #333333;
   text-decoration: none;
-  width: 250px;
   height: 20px;
 }
 
@@ -183,11 +182,11 @@ h2 {
 
 .menuitems {
   background-color: #ffffff;
-  width: 250px;
+  width: 150px;
 }
 
 .menuitems table {
-  width: 250px;
+  width: 100%;
 }
 
 .menuitems a {
@@ -207,7 +206,7 @@ h2 {
   opacity:  1.0;
   z-index: 9;
   float: left;
-  height: 333px;
+  height: 375px;
   background-color: #ffffff;
 }
 
