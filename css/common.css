@@ -166,7 +166,7 @@ h2 {
   position: relative;
   top: 0px;
   text-align: left;
-  margin-left: -40px;
+  margin-left: -36px;
   color: #333333;
   text-decoration: none;
   width: 240px;
@@ -253,7 +253,7 @@ h2 {
     background-color: #ffffff;
     display: block;
     opacity: 1.0;
-    height: 440px;
+    height: 320px;
   }
   
   .leftmenubar.responsive a {
