@@ -250,9 +250,9 @@ h2 {
   
   
  .menuitems table, tbody, tr, td {
-   /* table, tbody, tr, td {  border-spacing: 0px;  padding: 0px; }  */
+   /* table, tbody, tr, td {  border-spacing: 0px; }  */
    border-spacing: 0px;
-   padding: 0px; 
+   height: 0px;
   }
   
   h1, h2 {
