@@ -189,13 +189,14 @@ h2 {
   border-spacing: 0px;
   border: 0px;
   padding: 0px;
-  background-color: #ffffff;
 }
 
 .menuitems td, tr, th {
   width: 180px;
-  height: 0px;
+  border-spacing: 0px;
   border: 0px;
+  padding: 0px;
+  height: 0px;
   background-color: #ffffff;
 }
 
