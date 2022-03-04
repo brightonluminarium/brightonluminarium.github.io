@@ -183,8 +183,6 @@ h2 {
   background-color: #ffffff;
 }
 
-/* .menuitems table, tbody, tr, td {  border-spacing: 0px;  padding: 0px; }  */
-
 .menuitems a {
   color: #333333;
   text-decoration: none;
@@ -250,6 +248,12 @@ h2 {
     z-index: 9;
   }
   
+  
+ .menuitems tr {
+   /* table, tbody, tr, td {  border-spacing: 0px;  padding: 0px; }  */
+   border-spacing: 0px;
+   padding: 0px; 
+  }
   
   h1, h2 {
     margin-right: 30px;
