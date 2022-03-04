@@ -174,6 +174,7 @@ h2 {
   color: #333333;
   text-decoration: none;
   width: 250px;
+  height: 40px;
 }
 
 .menuicon a {
@@ -182,10 +183,11 @@ h2 {
 
 .menuitems {
   background-color: #ffffff;
+  width: 250px;
 }
 
 .menuitems table {
-  width: 230px;
+  width: 250px;
 }
 
 .menuitems a {
