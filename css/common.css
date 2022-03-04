@@ -194,6 +194,7 @@ h2 {
 
 .menuitems td, tr, th {
   width: 180px;
+  height: 32px;
   border: 0px;
 }
 
