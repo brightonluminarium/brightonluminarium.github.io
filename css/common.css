@@ -224,7 +224,9 @@ h2 {
   .leftmenubar { 
     padding-left: 0px;
     z-index: 0;
-   }
+    /*  The following height command hides the entire left menu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
+    height: 45px;
+  }
   
   .leftmenubar a {
     display: none;
