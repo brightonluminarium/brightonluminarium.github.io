@@ -146,7 +146,7 @@ h2 {
 
 .content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 100px;
+  margin-left: 70px;
   /* was margin-left: 165px; */
   position: static;
   top: 8px;
@@ -198,7 +198,7 @@ h2 {
 
 .leftmenubar {
   position: relative;
-  width: 220px;
+  width: 234px;
   opacity:  1.0;
   z-index: 9;
   float: left;
