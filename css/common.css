@@ -185,7 +185,7 @@ h2 {
 }
 
 .menuitems {
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.9);
 /*  background-color: #ffffff;  */
 /*  this makes hr in left menu appear all the time... odd:        width: 160px; */
 }
@@ -251,7 +251,7 @@ h2 {
   .leftmenubar.responsive {
     position: relative;
 /*    background-color: #ffffff;  */
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.9);
  /*   opacity: 1.0; */
     z-index: 9;
   }
@@ -307,8 +307,7 @@ h2 {
   align: left;
   text-align: left;
   float: left;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 .menuimagetext {
