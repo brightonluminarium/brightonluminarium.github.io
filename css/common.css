@@ -224,7 +224,6 @@ h2 {
   .leftmenubar { 
     padding-left: 0px;
     z-index: 0;
-    height: 55px;
    }
   
   .leftmenubar a {
@@ -267,6 +266,7 @@ h2 {
   
 .menuicon {
   margin-left: 0px;
+  height: 55px;
   }
   
   
