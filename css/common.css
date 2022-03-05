@@ -302,18 +302,20 @@ h2 {
 
 .menuimage {
   position: relative;
-  height: 320px;
-  width: 320px;
   align: left;
   text-align: left;
   float: left;
-  margin: 10px;
+/*  height: 320px;  */
+/*  width: 320px;  */
+/*  margin: 10px;  */
+  height: 240px;  
+  width: 240px;  
+  margin: 8px; 
 }
 
 .menuimagetext {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.0em;
   color:#ffffff;
   text-color: white;
   text-decoration: none; 
@@ -322,12 +324,22 @@ h2 {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 
-  width: 300px;
-  height: 20px;
-  padding-bottom: 40px;
-  bottom: 0px;
-  padding-left: 20px;
-  left: 0px;
+/*   width: 300px;  */
+/*   height: 20px;  */
+/*   padding-bottom: 40px;  */
+/*   bottom: 0px; */
+/*   padding-left: 20px;  */
+/*   left: 0px;  */ 
+/*   font-size: 2.0em; */
+  
+   width: 225px;
+   height: 15px;
+   padding-bottom: 30px;
+   bottom: 0px;
+   padding-left: 15px;  
+   left: 0px; 
+   font-size: 1.5em;
+  
 }
 
 .menuimagetext h3 {
