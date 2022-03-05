@@ -140,7 +140,7 @@ h1 {
 
 h2 {
   font-size: 2.0em;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 10px;
  }
 
@@ -224,7 +224,7 @@ h2 {
   .leftmenubar { 
     padding-left: 0px;
     z-index: 0;
-    height: 45px;
+    height: 55px;
    }
   
   .leftmenubar a {
