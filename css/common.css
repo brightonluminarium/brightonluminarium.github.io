@@ -249,7 +249,7 @@ h2 {
   
   .leftmenubar.responsive {
     position: relative;
-    background-color: #ffffff;
+/*    background-color: #ffffff;   */
     background: rgba(255,255,255,0.8)
     opacity: 1.0;
     z-index: 9;
