@@ -147,8 +147,9 @@ h2 {
 
 .content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 70px;
+  margin-left: 50px;
   /* was margin-left: 70px; */
+  left: 15px;
   position: static;
   top: 8px;
   text-align: left;
@@ -209,10 +210,6 @@ h2 {
   float: left;
   background-color: #ffffff;
   margin-bottom: 0px;
-  
-  margin-left: 15px;
-  padding-left: 0px;
-  left: 0px;
 }
 
 .leftmenubar a {
@@ -231,14 +228,13 @@ h2 {
 @media screen and (max-width: 800px) {
   
   .leftmenubar { 
-    padding-left: 0px;
     z-index: 0;
     /*  The following height command hides the entire left menu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
     height: 60px;
     
-  margin-left: 0px;
-  padding-left: 0px;
-  left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 15px;
   }
    
 .menuicon {
