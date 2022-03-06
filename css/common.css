@@ -268,6 +268,9 @@ h2 {
   
  .menuitems table, tbody, tr, td {
    border-spacing: 0px;
+   left: 0px;
+   padding-left: 0px;
+   margin-left: 0px;
    height: 0px;
    width: 0px;
   }
