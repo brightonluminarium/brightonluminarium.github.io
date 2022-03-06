@@ -147,8 +147,9 @@ h2 {
 
 .content {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 70px;
-  /* was margin-left: 165px; */
+  margin-left: 55px;
+  padding-left: 15px;
+  /* was margin-left: 70px; */
   position: static;
   top: 8px;
   text-align: left;
