@@ -177,7 +177,7 @@ h2 {
   text-decoration: none; 
 /*  The following height command, and in the thin window .leftmenubar definition, puts a bit of space between the BL icon and the top menu item */
  
-  height: 50px;
+  height: 50  px;
 }
 
 .menuicon a {
@@ -284,8 +284,8 @@ h2 {
    
   .content {
     margin-left: 0px;
-    padding-left: 15px;
-    margin-top: 20px;
+    padding-left: 18px;
+    margin-top: 25px;
   }
   
 
