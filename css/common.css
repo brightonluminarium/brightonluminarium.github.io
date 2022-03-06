@@ -266,7 +266,7 @@ h2 {
   }
   
   
- .menuitems table, tbody, tr, td {
+ .leftmenubar table, tbody, tr, td {
    border-spacing: 0px;
    left: 0px;
    padding-left: 0px;
