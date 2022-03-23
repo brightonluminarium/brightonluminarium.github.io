@@ -381,8 +381,8 @@ h2 {
   .menuimagetext {
    width: 150px;
    height: 10px;
-   padding-bottom: 20px;
-   bottom: 0px;
+   padding-bottom: 10px;
+   bottom: 10px;
    padding-left: 10px;  
    left: 0px; 
    font-size: 1em;
