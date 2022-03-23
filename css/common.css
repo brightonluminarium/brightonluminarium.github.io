@@ -234,7 +234,8 @@ h2 {
     padding-left: 0px;
     left: 15px;
     /*  width: 225px;  */
-    width: 335px;
+    /* width: 335px; */
+    width:  100%;
   }
    
   .leftmenubar a {
