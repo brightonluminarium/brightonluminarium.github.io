@@ -222,96 +222,10 @@ h2 {
 }
 
 
-/* If the screen is narrow, either on a computer of a phone, then the following formatting tweaks it accordingly */
-
-@media screen and (max-width: 800px) {
-  
-  .leftmenubar { 
-    z-index: 0;
-    /*  The following height command hides the entire left menu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
-    height: 55px;
-    margin-left: 0px;
-    padding-left: 0px;
-    left: 15px;
-    /*  width: 225px;  */
-    /* width: 335px; */
-    width:  100%;
-  }
-   
-  .leftmenubar a {
-    display: none;
-    float: none;
-    opacity: 1.0;
-  }
-  
-  .leftmenubar a.icon {
-    display: block;
-    text-color: black;
-  }
-  
-  .leftmenubar.responsive {
-    position: relative;
-/*    background-color: #ffffff;  */
-    background: rgba(255,255,255,0.9);
- /*   opacity: 1.0; */
-    z-index: 9;
-  }
-  
-  .leftmenubar.responsive a {
-    float: none;
-    display: block;
-  }
-  
-  
- .leftmenubar table, tbody, tr, td {
-   border-spacing: 0px;
-   left: 0px;
-   padding-left: 0px;
-   margin-left: 0px;
-   height: 0px;
-   width: 0px;
-  }
-  
-  .menuicon {
-  margin-left: 0px;
-  }
-  
-  .menuitems {
-    background: rgba(255,255,255,1.0);
-  }
-  
-  h1, h2 {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-  
-  h3 {margin-top: 0px; }
-   
-  .content {
-    margin-left: 0px;
-    padding-left: 18px;
-    margin-top: 25px;
-  }
-  
-
-}
 
 
 
-/* Also, if the page is narrow, change the front index.html image accordinly */
 
-@media screen and (max-width: 600px) {  
-  .decorimage {
-    float: none;
-    align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-}
 
 
 /* This is for the big menu images in the front index.html page */
@@ -377,3 +291,106 @@ h2 {
   text-color: white;
   text-decoration: none; 
 }
+
+
+
+
+
+
+
+/* If the screen is narrow, either on a computer of a phone, then the following formatting tweaks it accordingly */
+
+@media screen and (max-width: 800px) {
+  
+  .leftmenubar { 
+    z-index: 0;
+    /*  The following height command hides the entire left menu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
+    height: 55px;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 15px;
+    /*  width: 225px;  */
+    /* width: 335px; */
+    width:  100%;
+  }
+   
+  .leftmenubar a {
+    display: none;
+    float: none;
+    opacity: 1.0;
+  }
+  
+  .leftmenubar a.icon {
+    display: block;
+    text-color: black;
+  }
+  
+  .leftmenubar.responsive {
+    position: relative;
+/*    background-color: #ffffff;  */
+    background: rgba(255,255,255,0.9);
+ /*   opacity: 1.0; */
+    z-index: 9;
+  }
+  
+  .leftmenubar.responsive a {
+    float: none;
+    display: block;
+  }
+  
+  
+ .leftmenubar table, tbody, tr, td {
+   border-spacing: 0px;
+   left: 0px;
+   padding-left: 0px;
+   margin-left: 0px;
+   height: 0px;
+   width: 0px;
+  }
+  
+  .menuicon {
+  margin-left: 0px;
+  }
+  
+  .menuitems {
+    background: rgba(255,255,255,1.0);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+  
+  h3 {margin-top: 0px; }
+   
+  .content {
+    margin-left: 0px;
+    padding-left: 18px;
+    margin-top: 25px;
+  }
+  
+  .menuimage img {
+    height: 160px;  
+    width: 160px;
+    opacity: 1.0;
+  }
+
+}
+
+
+
+/* Also, if the page is narrow, change the front index.html image accordinly */
+
+@media screen and (max-width: 600px) {  
+  .decorimage {
+    float: none;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
