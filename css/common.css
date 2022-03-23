@@ -379,10 +379,10 @@ h2 {
   }
   
   .menuimagetext {
-    width: 150px;
+   width: 150px;
    height: 10px;
-   padding-bottom: 18px;
-   bottom: 2px;
+   padding-bottom: 20px;
+   bottom: 0px;
    padding-left: 10px;  
    left: 0px; 
    font-size: 1em;
