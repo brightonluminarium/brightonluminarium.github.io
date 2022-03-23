@@ -377,8 +377,25 @@ h2 {
     width: 160px;
     opacity: 1.0;
   }
-
+  
+  .menuimagetext {
+ppppppppppppppppp
+    width: 140px;
+   height: 12px;
+   padding-bottom: 20px;
+   bottom: 2px;
+   padding-left: 10px;  
+   left: 0px; 
+   font-size: 1em;
 }
+
+.menuimagetext h3 {
+   font-size: 1em;
+}
+  
+  
+
+}  /*  End of narrow window formatting.  */
 
 
 
