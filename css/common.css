@@ -273,7 +273,7 @@ h2 {
    height: 15px;
    padding-bottom: 30px;
    bottom: 4px;
-   padding-left: 15px;  
+   padding-left: 0px;  /* was 15px */
    left: 0px; 
    font-size: 1.5em;
   
