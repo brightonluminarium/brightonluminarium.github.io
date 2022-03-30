@@ -364,7 +364,8 @@ h2 {
    
   .content {
     margin-left: 0px;
-    padding-left: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
     margin-top: 25px;
   }
   
