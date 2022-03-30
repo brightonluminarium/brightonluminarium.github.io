@@ -232,7 +232,8 @@ h2 {
 
 .menuimage {
   position: relative;
-  float: left;
+/*  float: left; */
+  display: inline-block;
 /*  margin: 10px;  */
   margin: 8px; 
 }
