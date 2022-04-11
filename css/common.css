@@ -130,7 +130,6 @@ html, body {
 /*  This sets the div-box for the .BLimgs (images) to go in.  It changes size if the windows shrinks (=on a mobile phone) - see far below for that code.  */
 .BLimgsdiv {
  width: 400px;
- float: right; 
  position: relative; 
  display:inline-block;
 }
