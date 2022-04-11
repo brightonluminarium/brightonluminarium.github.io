@@ -8,8 +8,7 @@ html, body {
 }
 
 
-/*  Front page index.html, big image and title formatting - much of this is not even used...  */
-
+/*  Front page index.html, big image and title formatting - much of this (the .introvid, video stuff & .social) is not even used, but it's left in just in case...  */
 
 .title {
   font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +16,6 @@ html, body {
   font-size: 4.0em;
   color:#ffffff;
 }
-
 
 .subtitle {
   font-family: Arial, Helvetica, sans-serif;
@@ -97,7 +95,7 @@ html, body {
 
 
 
-/* General formatting in pages */
+/* General formatting in the sub-pages */
 
 .tablecaption {
   font-family: Arial, Helvetica, sans-serif;
@@ -115,6 +113,7 @@ html, body {
   z-index: 1;
 }
 
+/*  BLimgs 9Brighton Luminarium images) are the inset images, with captions, on all the sub pages */
 .BLimgs {
   border: 4px solid #cccccc;
   margin: 20px 20px 20px 100px;
@@ -126,6 +125,14 @@ html, body {
   z-index: 1;
   width: 320px;
   hspace: 20px;
+}
+
+/*  This sets the div-box for the .BLimgs (images) to go in.  It changes size if the windows shrinks (=on a mobile phone) - see far below for that code.  */
+.BLimgsdiv {
+ width: 400px;
+ float: right; 
+ position: relative; 
+ display:inline-block;
 }
 
 .decorimage {
@@ -361,6 +368,10 @@ li {
   .BLimgs {
   width: 160px;
   hspace: 10px;
+}
+  
+ .BLimgsdiv {
+ width: 200px;
 }
 
   h1, h2 {
