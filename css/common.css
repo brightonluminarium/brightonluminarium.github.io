@@ -124,6 +124,8 @@ html, body {
   margin-left: auto; 
   margin-right: auto;
   z-index: 1;
+  width: 320px;
+  hspace: 20px;
 }
 
 .decorimage {
@@ -356,6 +358,11 @@ li {
    /*  width: 175px; */
   }
   
+  .BLimgs {
+  width: 160px;
+  hspace: 10px;
+}
+
   h1, h2 {
     text-align: center;
     margin-left: 10px;
