@@ -134,6 +134,10 @@ html, body {
  display:inline-block;
 }
 
+.BLimgsdiv hr {
+  width: 80%;
+}
+
 .decorimage {
   float: right; 
 }
