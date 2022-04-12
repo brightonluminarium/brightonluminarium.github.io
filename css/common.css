@@ -202,6 +202,7 @@ li {
 
 .menuitems {
     background: rgba(255,255,255,0.9);
+    margin-top: -4px;
 /*  background-color: #ffffff;  */
 /*  width: 160px;    ....makes hr in left menu appear all the time.   */
 }
