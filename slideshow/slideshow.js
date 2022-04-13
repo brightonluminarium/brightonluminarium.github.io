@@ -33,11 +33,11 @@ function plusSlides(n) {
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showManSlides(slideIndex = n);
   ClearTimeout(showAutoSlides);
 }
 
-function showSlides(n) {
+function showManSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
