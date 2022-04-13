@@ -18,7 +18,7 @@ function showAutoSlides() {
   dots[slideIndex-1].className += " active";
   
   
-  autoSlidesTimeout=setTimeout(showAutoSlides, 5000); // Change image every 2 seconds
+  setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 }
 
@@ -30,7 +30,7 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  ClearTimeout();
+  ClearTimeout(0);
 }
 
 // Thumbnail image controls
