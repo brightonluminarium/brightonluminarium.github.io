@@ -17,7 +17,7 @@ function showAutoSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showAutoSlides, 5000); // Change image every 2 seconds
+  var autoSlidesTimeout=setTimeout(showAutoSlides, 5000); // Change image every 2 seconds
 }
 
 
@@ -28,13 +28,13 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  ClearTimeout(showAutoSlides);
+  ClearTimeout(autoSlidesTimeout);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
   showManSlides(slideIndex = n);
-  ClearTimeout(showAutoSlides);
+  ClearTimeout(autoSlidesTimeout);
 }
 
 function showManSlides(n) {
