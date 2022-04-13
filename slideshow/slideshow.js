@@ -10,7 +10,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  alert('showslides('+ n +')\nslideIndex='+slideIndex);
+  // alert('showslides('+ n +')\nslideIndex='+slideIndex);
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
