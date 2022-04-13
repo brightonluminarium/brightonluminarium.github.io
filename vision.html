@@ -39,58 +39,6 @@ function myFunction() {
 </script>
   
 
-<div class="w3-content">
-
-<div id="myslideFrame">
-
-<img class="mySlides" src="http://www.w3schools.com/w3css/img_nature_wide.jpg" >
-
-<img class="mySlides" src="http://www.w3schools.com/w3css/img_fjords_wide.jpg" >
-
-<img class="mySlides" src="http://www.w3schools.com/w3css/img_mountains_wide.jpg" >
-
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)" onmouseover="pauseCarousel();" onmouseout="startCarousel()">❮</a>
-
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel()">❯</a>
-
-<div style="width:100%" class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft">
-
-<span onclick="currentDiv(1)" class="w3-badge demo w3-border w3-transparent w3-hover-white" onmouseover="pauseCarousel();" onmouseout="startCarousel()"></span>
-
-<span onclick="currentDiv(2)" class="w3-badge demo w3-border w3-transparent w3-hover-white" onmouseover="pauseCarousel();" onmouseout="startCarousel()"></span>
-
-<span onclick="currentDiv(3)" class="w3-badge demo w3-border w3-transparent w3-hover-white" onmouseover="pauseCarousel();" onmouseout="startCarousel()"></span>
-
-</div>
-
-</div>
-
-<div class="w3-row-padding w3-section flexbox">
-
-<div class="w3-col s4">
-
-<img class="demo w3-border w3-hover-shadow" src="http://www.w3schools.com/w3css/img_nature_wide.jpg" style="width:100%" onclick="currentDiv(1)" onmouseover="pauseCarousel();" onmouseout="startCarousel()">
-
-</div>
-
-<div class="w3-col s4">
-
-<img class="demo w3-border w3-hover-shadow" src="http://www.w3schools.com/w3css/img_fjords_wide.jpg" style="width:100%" onclick="currentDiv(2)" onmouseover="pauseCarousel();" onmouseout="startCarousel()">
-
-</div>
-
-<div class="w3-col s4">
-
-<img class="demo w3-border w3-hover-shadow" src="http://www.w3schools.com/w3css/img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(3)" onmouseover="pauseCarousel();" onmouseout="startCarousel()">
-
-</div>
-
-</div>
-
-
-</div>
-
-  
    
  <div class="content">
    
@@ -99,6 +47,90 @@ function myFunction() {
    
   <p>Our vision is for a science & technology discovery centre, called the Brighton Luminarium, to be built at the Black Rock site on Brighton’s sea front, immediately west of the Brighton Marina.  The Brighton Luminarium will be a unique attraction that will showcase Brighton with innovative architecture, exhibits and interactives, creating memorable and exciting days out for tourists, local families, and school groups alike. </p>
 
+
+<div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 9</div>
+    <img src="slideshow/ArchitectDrawing.jpg" style="width:100%">
+    <div class="text">How the Brighton Luminarium might look at Black Rock, Brighton.</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 9</div>
+    <img src="slideshow/VERbanner.jpg" style="width:100%">
+    <div class="text">The Volks Electric Railway runs along Brighton's sea front from the aquarium to Black Rock, and would serve the Brighton Luminarium.</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 9</div>
+    <img src="slideshow/Rottingdean.jpg" style="width:100%">
+    <div class="text">The Brighton Luminarium will tell the story of the Brighton and Rottingdean Seashore Electric Railway, built in 1896.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 9</div>
+    <img src="slideshow/astronomy.jpg" style="width:100%">
+    <div class="text">A planetarium and astronomy exhibition will show the visitors the latest discoveries.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 9</div>
+    <img src="slideshow/Quantum.jpg" style="width:100%">
+    <div class="text">The worlds first Museum of Quantum will look forward to future technologies.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 9</div>
+    <img src="slideshow/spectrallamps.jpg" style="width:100%">
+    <div class="text">Hands on activities will help visitors understand the quantum nature of light.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">7 / 9</div>
+    <img src="slideshow/classroom.jpg" style="width:100%">
+    <div class="text">Classrooms for school visits will also be available for hire for community and corporate events.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">8 / 9</div>
+    <img src="slideshow/coast1.jpg" style="width:100%">
+    <div class="text">Situated on the sea front, a café will allow visitors to relax as they look out to sea.</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">9 / 9</div>
+    <img src="slideshow/coast2.jpg" style="width:100%">
+    <div class="text">The Brighton Luminarium will attract over 300,000 visitors each year from around the world.</div>
+  </div>
+  
+  
+  
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+</div>
+  
+  </div>
+<br>
+
+  
+
+  <script src="slideshow/slideshow.js"></script>
+
+     
+   <!--  END SLIDE SHOW CODE --!>
 
   <br>
    <p>The overarching theme of the Brighton Luminarium is light, and the centre will consist of the following elements...</p>
