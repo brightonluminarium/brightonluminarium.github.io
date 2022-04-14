@@ -66,6 +66,10 @@
 }
 
 /* The dots/bullets/indicators */
+.dotsdivbox {
+  text-align:center;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -97,11 +101,16 @@
 
 
 /* If the screen is narrow, either on a computer of a phone, then the following formatting tweaks it accordingly */
-
 @media screen and (max-width: 800px) {
-/* Modify location of caption text for mobile phones */
+  
+/* Basically, move the text below the image (rather than on top), and also move the dots */
 .text {
-  bottom: -25px;   /*  was 23px   */
+  bottom: -28px;   /*  was 23px   */
+}
+  
+.dotsdivbox {
+  text-align:center;
+  top: 30px;
 }
   
 }
