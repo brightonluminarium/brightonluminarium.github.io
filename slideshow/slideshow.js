@@ -36,14 +36,14 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  clearTimeout(autoSlidesTimeout);
+//  clearTimeout(autoSlidesTimeout);
   showAutoSlides = 0;
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
   showManSlides(slideIndex = n);
-  clearTimeout(autoSlidesTimeout);
+//  clearTimeout(autoSlidesTimeout);
   showAutoSlides = 0;
 }
 
