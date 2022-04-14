@@ -105,7 +105,7 @@
   
 /* Basically, move the text below the image (rather than on top), and also move the dots */
 .text {
-  bottom: -20px;
+  bottom: 0px;
 /*  top: 150px; */
 }
   
@@ -114,8 +114,8 @@
   padding-top:  100px;
 }
   
-  .prev, .next {
-  top: 30%;
+.prev, .next {
+  top: 25%;
   }
   
 }
