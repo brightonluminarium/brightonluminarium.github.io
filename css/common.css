@@ -165,6 +165,7 @@ li {
   margin-left: 50px;
   /* was margin-left: 70px; */
   left: 15px;
+  right: 15px;
   position: static;
   top: 12px;
   text-align: left;
@@ -390,7 +391,8 @@ li {
   h3 {margin-top: 0px; }
    
   .content {
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-left: 18px;
     padding-right: 18px;
     margin-top: 25px;
