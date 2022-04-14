@@ -101,7 +101,7 @@
 @media screen and (max-width: 800px) {
 /* Modify location of caption text for mobile phones */
 .text {
-  bottom: 0px;   /*  was 23px   */
+  bottom: -25px;   /*  was 23px   */
 }
   
 }
