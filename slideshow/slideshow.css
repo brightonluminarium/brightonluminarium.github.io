@@ -105,7 +105,7 @@
   
 /* Basically, move the text below the image (rather than on top), and also move the dots */
 .text {
-  bottom: 20px;  
+  bottom: 50px;  
   /* -20px is a big gap; 0px is ... */
 }
   
