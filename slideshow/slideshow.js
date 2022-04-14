@@ -2,7 +2,7 @@
 let slideIndex = 0;
 showAutoSlides();
 
-const nextslidetimeout=setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
+var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 
 function showAutoSlides() {
@@ -30,7 +30,7 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  ClearTimeout(nextslidetimeout);
+  ClearTimeout(nextslideTimeout);
 }
 
 // Thumbnail image controls
