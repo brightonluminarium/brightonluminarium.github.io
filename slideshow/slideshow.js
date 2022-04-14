@@ -1,5 +1,5 @@
 
-let slideIndex = 0;
+let slideIndex = 1;
 
 //var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
