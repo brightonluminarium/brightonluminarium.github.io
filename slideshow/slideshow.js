@@ -37,12 +37,14 @@ showManSlides(slideIndex);
 function plusSlides(n) {
   showManSlides(slideIndex += n);
   clearTimeout(autoSlidesTimeout);
+  showAutoSlides = 0;
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
   showManSlides(slideIndex = n);
   clearTimeout(autoSlidesTimeout);
+  showAutoSlides = 0;
 }
 
 function showManSlides(n) {
