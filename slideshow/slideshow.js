@@ -4,7 +4,7 @@ let slideIndex = 1;
 //var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 
-var showAutoSlides = function() {
+function showAutoSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -18,32 +18,28 @@ var showAutoSlides = function() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  
-  timerfunction();
+   
+  setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
   
 }
-
-var timerfunction = function () {
-   return setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
-}
-    
-var autoSlidesTimeout = timerfunction();
-
 
 // let slideIndex = 1;
 showManSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  var timerid = window.setTimeout(function() {}, 0);
+
+  while (timerid--) {
+    window.clearTimeout(timerid); // will do nothing if no timeout with id is present
+  }
+  
   showAutoSlides = 0;
-  clearTimeout(autoSlidesTimeout);
   showManSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showAutoSlides = 0;
-  clearTimeout(autoSlidesTimeout);
   showManSlides(slideIndex = n);
 }
 
