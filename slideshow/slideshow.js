@@ -2,7 +2,7 @@
 let slideIndex = 0;
 showAutoSlides();
 
-var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
+//var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 
 function showAutoSlides() {
@@ -23,6 +23,12 @@ function showAutoSlides() {
 
 }
 
+var timerfunction = function () {
+   return SetTimeout(showAutoSlides, 5000); // Change image every 5 seconds
+}
+    
+var autoSlidesTimeout = timerfunction();
+
 
 // let slideIndex = 1;
 showManSlides(slideIndex);
@@ -30,7 +36,7 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  ClearTimeout(nextslideTimeout);
+  ClearTimeout(autoslideTimeout);
 }
 
 // Thumbnail image controls
@@ -54,3 +60,4 @@ function showManSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
