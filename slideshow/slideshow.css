@@ -5,6 +5,9 @@
   max-width: 900px;
   position: relative;
   margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Hide the images by default */
@@ -85,4 +88,18 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+
+
+/* If the screen is narrow, either on a computer of a phone, then the following formatting tweaks it accordingly */
+
+@media screen and (max-width: 800px) {
+/* Modify location of caption text for mobile phones */
+.text {
+  bottom: 45px;   /*  was 23px   */
+}
+  
 }
