@@ -18,7 +18,7 @@ function showAutoSlides() {
   dots[slideIndex-1].className += " active";
   
   
-  const nextslidetimeout=setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
+  let nextslidetimeout=setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 }
 
