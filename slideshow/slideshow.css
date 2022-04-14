@@ -105,7 +105,7 @@
   
 /* Basically, move the text below the image (rather than on top), and also move the dots */
 .text {
-  bottom: 22px;  
+  bottom: 28px;  
 }
   
 .dotsdivbox {
