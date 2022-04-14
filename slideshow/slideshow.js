@@ -5,7 +5,7 @@ showAutoSlides();
 //var nextslideTimeout = setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 
 
-function showAutoSlides() {
+var showAutoSlides = function() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
