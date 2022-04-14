@@ -7,7 +7,7 @@
 /*  width: 100%; */
   position: relative;
   margin: auto;
-/* display: block; */
+ display: inline;
 }
 
 /* Hide the images by default */
