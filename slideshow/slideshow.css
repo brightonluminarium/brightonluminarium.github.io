@@ -105,12 +105,11 @@
   
 /* Basically, move the text below the image (rather than on top), and also move the dots */
 .text {
-  bottom: 50px;  
-  /* -20px is a big gap; 0px is ... */
+  bottom: 75px;  
 }
   
 .dotsdivbox {
-  top: 30px;
+  top: 0px;
   padding-top:  100px;
 }
   
