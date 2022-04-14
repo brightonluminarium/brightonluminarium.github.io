@@ -36,7 +36,7 @@ showManSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showManSlides(slideIndex += n);
-  ClearTimeout(autoslideTimeout);
+  ClearTimeout(autoSlidesTimeout);
 }
 
 // Thumbnail image controls
