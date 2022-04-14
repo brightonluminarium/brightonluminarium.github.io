@@ -163,6 +163,7 @@ li {
 .content {
   font-family: 'Montserrat', sans-serif;
   margin-left: 50px;
+   margin-right: 20px;
   /* was margin-left: 70px; */
   left: 15px;
   right: 15px;
@@ -391,7 +392,7 @@ li {
   h3 {margin-top: 0px; }
    
   .content {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     padding-left: 18px;
     padding-right: 18px;
