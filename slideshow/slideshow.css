@@ -118,4 +118,8 @@
   top: 33%;
   }
   
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  }
+  
 }
