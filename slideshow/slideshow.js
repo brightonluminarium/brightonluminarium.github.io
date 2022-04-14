@@ -24,7 +24,7 @@ function showAutoSlides() {
 }
 
 var timerfunction = function () {
-   return SetTimeout(showAutoSlides, 5000); // Change image every 5 seconds
+   return setTimeout(showAutoSlides, 5000); // Change image every 5 seconds
 }
     
 var autoSlidesTimeout = timerfunction();
