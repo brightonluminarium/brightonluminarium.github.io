@@ -1,7 +1,8 @@
 * {box-sizing:border-box}
 
 .slideshowborderbox {
-  margin-left: 210px;
+  margin-left: 162px;
+  width: auto;
 }
 
 /* Slideshow container */
