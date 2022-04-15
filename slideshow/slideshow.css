@@ -1,5 +1,9 @@
 * {box-sizing:border-box}
 
+.slideshowborderbox {
+  margin-left: 210px;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
