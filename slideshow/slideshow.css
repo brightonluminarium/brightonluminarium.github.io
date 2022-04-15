@@ -3,11 +3,11 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
-  width: 100%;
+  width: auto;
   position: relative;
 
  margin-left: auto; 
-/* margin-right: auto; */
+ margin-right: auto;
 }
 
 /* Hide the images by default */
