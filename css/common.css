@@ -55,7 +55,7 @@ html, body {
 }
 
 .image_overlay {
-  opacity:20%;
+  opacity:60%;
   width: auto;
   /* width: 100vw; */
   height: 66vh;
