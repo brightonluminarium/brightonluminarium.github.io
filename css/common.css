@@ -302,7 +302,11 @@ li {
   text-decoration: none; 
 }
 
-
+/* If page is wide, do some additional formatting.  The margin-left tab is overruled in the following narrow screen check  */
+.WideMainPage {
+  margin-left: 162px; 
+  width: auto;
+}
 
 
 
@@ -372,6 +376,12 @@ li {
    /*  width: 175px; */
   }
   
+  
+  .WideMainPage {
+  margin-left: 0px; 
+  width: auto;
+}
+
   .BLimgs {
   width: 160px;
   hspace: 10px;
@@ -436,4 +446,6 @@ li {
     display: block;
   }
 }
+
+
 
