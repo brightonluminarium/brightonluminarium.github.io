@@ -131,4 +131,9 @@
 .prev, .next {
   background-color: rgba(0,0,0,0.3);
   }
+  
+.slideshowborderbox {
+  margin-left: auto;
+  }
+  
 }
