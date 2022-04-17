@@ -140,6 +140,7 @@ html, body {
 
 .decorimage {
   float: right; 
+  max-width: 90%;
 }
 
 h1, h2 {
