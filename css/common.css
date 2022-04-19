@@ -323,7 +323,6 @@ li {
   
   .leftmenubar { 
     z-index: 0;
-    /*  The following height command hides the entire left menu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
     height: 55px;
     margin-left: 0px;
     padding-left: 0px;
@@ -333,8 +332,9 @@ li {
     width:  100%; 
     margin-top: -20px;
   }
-   
-  .leftmenubar a {
+
+/*  The following command hides the entire leftmenu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
+  .leftmenubar a, hr {
     display: none;
     float: none;
     opacity: 1.0;
