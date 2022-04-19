@@ -341,7 +341,7 @@ li {
   }
   
   .leftmenubar a.icon {
-    display: block;
+    display: inline-block;
     text-color: black;
   }
   
@@ -355,7 +355,7 @@ li {
   
   .leftmenubar.responsive a {
     float: none;
-    display: block;
+    display: inline-block;
   }
   
   
