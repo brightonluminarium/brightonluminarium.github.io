@@ -334,11 +334,19 @@ li {
   }
 
 /*  The following command hides the entire leftmenu when the window is thin.  If it's not defined, the menu appears on top of the text throughout */
-  .leftmenubar a, hr {
+  .leftmenubar a {
     display: none;
     float: none;
     opacity: 1.0;
   }
+
+    .leftmenubar hr {
+    display: none;
+    float: none;
+    opacity: 0.0;
+    color: #ffffff;
+  }
+
   
   .leftmenubar a.icon {
     display: inline-block;
@@ -353,9 +361,16 @@ li {
     z-index: 9;
   }
   
-  .leftmenubar.responsive a, hr {
+  .leftmenubar.responsive a {
     float: none;
     display: inline-block;
+  }
+  
+  
+  .leftmenubar.responsive hr {
+    float: none;
+    display: inline-block;
+    color: #000000;
   }
   
   
