@@ -344,7 +344,6 @@ li {
     display: none;
     float: none;
     opacity: 0.0;
-    color: #ffffff;
   }
 
   
@@ -370,7 +369,7 @@ li {
   .leftmenubar.responsive hr {
     float: none;
     display: inline-block;
-    color: #000000;
+    opacity: 1.0;
   }
   
   
