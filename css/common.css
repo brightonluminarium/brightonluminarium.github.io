@@ -353,7 +353,7 @@ li {
     z-index: 9;
   }
   
-  .leftmenubar.responsive a {
+  .leftmenubar.responsive a, hr {
     float: none;
     display: inline-block;
   }
